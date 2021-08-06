@@ -1,0 +1,4 @@
+{
+  "root": true,
+  "extends": ["@yuanfudao/ok/react", "react-app/jest"]
+}
