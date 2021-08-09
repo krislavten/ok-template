@@ -5,7 +5,7 @@ const { join } = require('path');
 module.exports = {
   entry: 'src',
   name: 'ep-vue-template',
-  presets: ['vue-pc'],
+  presets: ['vue'],
   plugins: {
     style: {
       loaderOptions: {
