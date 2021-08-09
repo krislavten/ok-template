@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "ok dev",
+    "dev": "ok dev",
     "build": "ok build",
     "lint": "ok lint"
   },
