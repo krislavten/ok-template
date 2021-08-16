@@ -4,4 +4,9 @@ module.exports = {
   entry: 'src',
   // 预设配置名称，根据应用类型填写
   presets: ['vue'],
+  plugins: {
+    babel: {
+      presets: ['@yuanfudao/babel-preset-vue'],
+    },
+  },
 };

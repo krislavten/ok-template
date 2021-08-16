@@ -400,13 +400,13 @@
     "@babel/types" "^7.14.5"
 
 "@babel/helpers@^7.14.0":
-  version "7.14.8"
-  resolved "http://npm.zhenguanyu.com/@babel/helpers/download/@babel/helpers-7.14.8.tgz#839f88f463025886cff7f85a35297007e2da1b77"
-  integrity sha1-g5+I9GMCWIbP9/haNSlwB+LaG3c=
+  version "7.15.3"
+  resolved "http://npm.zhenguanyu.com/@babel/helpers/download/@babel/helpers-7.15.3.tgz#c96838b752b95dcd525b4e741ed40bb1dc2a1357"
+  integrity sha1-yWg4t1K5Xc1SW050HtQLsdwqE1c=
   dependencies:
     "@babel/template" "^7.14.5"
-    "@babel/traverse" "^7.14.8"
-    "@babel/types" "^7.14.8"
+    "@babel/traverse" "^7.15.0"
+    "@babel/types" "^7.15.0"
 
 "@babel/highlight@^7.10.4", "@babel/highlight@^7.12.13":
   version "7.13.10"
@@ -432,9 +432,9 @@
   integrity sha1-pcVg1tts2ObtNCNo3qgDkjLLqxg=
 
 "@babel/parser@^7.14.5", "@babel/parser@^7.15.0":
-  version "7.15.2"
-  resolved "http://npm.zhenguanyu.com/@babel/parser/download/@babel/parser-7.15.2.tgz#08d4ffcf90d211bf77e7cc7154c6f02d468d2b1d"
-  integrity sha1-CNT/z5DSEb9358xxVMbwLUaNKx0=
+  version "7.15.3"
+  resolved "http://npm.zhenguanyu.com/@babel/parser/download/@babel/parser-7.15.3.tgz#3416d9bea748052cfcb63dbcc27368105b1ed862"
+  integrity sha1-NBbZvqdIBSz8tj28wnNoEFse2GI=
 
 "@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining@^7.13.12":
   version "7.14.5"
@@ -725,9 +725,9 @@
     "@babel/helper-plugin-utils" "^7.12.13"
 
 "@babel/plugin-transform-block-scoping@^7.14.4":
-  version "7.14.5"
-  resolved "http://npm.zhenguanyu.com/@babel/plugin-transform-block-scoping/download/@babel/plugin-transform-block-scoping-7.14.5.tgz#8cc63e61e50f42e078e6f09be775a75f23ef9939"
-  integrity sha1-jMY+YeUPQuB45vCb53WnXyPvmTk=
+  version "7.15.3"
+  resolved "http://npm.zhenguanyu.com/@babel/plugin-transform-block-scoping/download/@babel/plugin-transform-block-scoping-7.15.3.tgz#94c81a6e2fc230bcce6ef537ac96a1e4d2b3afaf"
+  integrity sha1-lMgabi/CMLzObvU3rJah5NKzr68=
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
@@ -1108,7 +1108,7 @@
     debug "^4.1.0"
     globals "^11.1.0"
 
-"@babel/traverse@^7.14.5", "@babel/traverse@^7.14.8", "@babel/traverse@^7.15.0":
+"@babel/traverse@^7.14.5", "@babel/traverse@^7.15.0":
   version "7.15.0"
   resolved "http://npm.zhenguanyu.com/@babel/traverse/download/@babel/traverse-7.15.0.tgz#4cca838fd1b2a03283c1f38e141f639d60b3fc98"
   integrity sha1-TMqDj9GyoDKDwfOOFB9jnWCz/Jg=
@@ -1196,9 +1196,9 @@
     string-width "^2.0.0"
 
 "@polka/url@^1.0.0-next.9":
-  version "1.0.0-next.15"
-  resolved "http://npm.zhenguanyu.com/@polka/url/download/@polka/url-1.0.0-next.15.tgz#6a9d143f7f4f49db2d782f9e1c8839a29b43ae23"
-  integrity sha1-ap0UP39PSdsteC+eHIg5optDriM=
+  version "1.0.0-next.17"
+  resolved "http://npm.zhenguanyu.com/@polka/url/download/@polka/url-1.0.0-next.17.tgz#25fdbdfd282c2f86ddf3fcefbd98be99cd2627e2"
+  integrity sha1-Jf29/SgsL4bd8/zvvZi+mc0mJ+I=
 
 "@stylelint/postcss-css-in-js@^0.37.2":
   version "0.37.2"
@@ -1729,10 +1729,10 @@
   resolved "http://npm.zhenguanyu.com/@xtuc/long/download/@xtuc/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha1-0pHGpOl5ibXGHZrPOWrk/hM6cY0=
 
-"@yuanfudao/babel-preset-vue@4.0.0":
-  version "4.0.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/babel-preset-vue/download/@yuanfudao/babel-preset-vue-4.0.0.tgz#ca8470479904674ac9ae1414b81bc1c1eb9e9ac4"
-  integrity sha1-yoRwR5kEZ0rJrhQUuBvBweuemsQ=
+"@yuanfudao/babel-preset-vue@4.2.0":
+  version "4.2.0"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/babel-preset-vue/download/@yuanfudao/babel-preset-vue-4.2.0.tgz#1fae0e21c8b1888fcadd34039ab2123844e33241"
+  integrity sha1-H64OIcixiI/K3TQDmrISOETjMkE=
   dependencies:
     "@babel/core" "^7.13.8"
     "@babel/plugin-proposal-class-properties" "^7.13.0"
@@ -1746,14 +1746,14 @@
     babel-plugin-import "^1.13.3"
     core-js "3.x"
 
-"@yuanfudao/eslint-config-ok@^4.0.0":
-  version "4.0.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/eslint-config-ok/download/@yuanfudao/eslint-config-ok-4.0.0.tgz#c673875bf863922a1202414a4ae2664cf754f32e"
-  integrity sha1-xnOHW/hjkioSAkFKSuJmTPdU8y4=
+"@yuanfudao/eslint-config-ok@^4.2.0":
+  version "4.2.0"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/eslint-config-ok/download/@yuanfudao/eslint-config-ok-4.2.0.tgz#a461d638877b619760665cd2e256d37047a6826f"
+  integrity sha1-pGHWOId7YZdgZlzS4lbTcEemgm8=
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.7.0"
     "@typescript-eslint/parser" "^4.7.0"
-    "@yuanfudao/ok-shared" "4.0.0"
+    "@yuanfudao/ok-shared" "4.2.0"
     babel-eslint "^10.1.0"
     confusing-browser-globals-fresh "^1.0.2"
     eslint-config-airbnb-base "^14.1.0"
@@ -1779,14 +1779,14 @@
     dotenv-expand "^5.1.0"
     global-dirs "^3.0.0"
 
-"@yuanfudao/ok-core@4.0.0":
-  version "4.0.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-core/download/@yuanfudao/ok-core-4.0.0.tgz#2b857bec01def26c9d483d92f6401ca3afe7867f"
-  integrity sha1-K4V77AHe8mydSD2S9kAco6/nhn8=
+"@yuanfudao/ok-core@4.2.0":
+  version "4.2.0"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-core/download/@yuanfudao/ok-core-4.2.0.tgz#251494fa11d67bbe0e287a11022f9710465ae9b4"
+  integrity sha1-JRSU+hHWe74OKHoRAi+XEEZa6bQ=
   dependencies:
     "@kokojs/sockjs-client" "1.0.0"
     "@nuxt/friendly-errors-webpack-plugin" "^2.5.0"
-    "@yuanfudao/ok-shared" "4.0.0"
+    "@yuanfudao/ok-shared" "4.2.0"
     case-sensitive-paths-webpack-plugin "^2.4.0"
     get-port "^5.1.1"
     minimist "^1.2.5"
@@ -1797,31 +1797,31 @@
     webpack-merge "^5.7.3"
     webpackbar "^4.0.0"
 
-"@yuanfudao/ok-plugin-babel@4.0.0":
-  version "4.0.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-babel/download/@yuanfudao/ok-plugin-babel-4.0.0.tgz#b60aedd5c42b28c609e6d50f79bd7b33955fcefd"
-  integrity sha1-tgrt1cQrKMYJ5tUPeb17M5Vfzv0=
+"@yuanfudao/ok-plugin-babel@4.2.0":
+  version "4.2.0"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-babel/download/@yuanfudao/ok-plugin-babel-4.2.0.tgz#c025b98b833da117554e84214d832470c191f2d7"
+  integrity sha1-wCW5i4M9oRdVToQhTYMkcMGR8tc=
   dependencies:
     "@babel/core" "^7.13.8"
-    "@yuanfudao/ok-shared" "4.0.0"
+    "@yuanfudao/ok-shared" "4.2.0"
     babel-loader "^8.2.2"
     fork-ts-checker-webpack-plugin "^6.1.1"
     webpack "4.x"
 
-"@yuanfudao/ok-plugin-dll@4.0.0":
-  version "4.0.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-dll/download/@yuanfudao/ok-plugin-dll-4.0.0.tgz#08134db8628785fdd718579fcabed9daa0864294"
-  integrity sha1-CBNNuGKHhf3XGFefyr7Z2qCGQpQ=
+"@yuanfudao/ok-plugin-dll@4.2.0":
+  version "4.2.0"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-dll/download/@yuanfudao/ok-plugin-dll-4.2.0.tgz#7f5928891a7d630f8a6f68e384374b680d74f25b"
+  integrity sha1-f1koiRp9Yw+Kb2jjhDdLaA108ls=
   dependencies:
-    "@yuanfudao/ok-shared" "4.0.0"
+    "@yuanfudao/ok-shared" "4.2.0"
 
-"@yuanfudao/ok-plugin-lint@4.0.0":
-  version "4.0.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-lint/download/@yuanfudao/ok-plugin-lint-4.0.0.tgz#aaf145ff53cff73ca8961f421b11df36b28da79e"
-  integrity sha1-qvFF/1PP9zyolh9CGxHfNrKNp54=
+"@yuanfudao/ok-plugin-lint@4.2.0":
+  version "4.2.0"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-lint/download/@yuanfudao/ok-plugin-lint-4.2.0.tgz#f102ea9d2ecb4bb1f0fc5824748d7636fc1f582e"
+  integrity sha1-8QLqnS7LS7Hw/FgkdI12NvwfWC4=
   dependencies:
-    "@yuanfudao/ok-shared" "4.0.0"
-    "@yuanfudao/ok-tsconfig" "4.0.0"
+    "@yuanfudao/ok-shared" "4.2.0"
+    "@yuanfudao/ok-tsconfig" "4.2.0"
     eslint "^6.8.0"
     husky "^4.3.0"
     lint-staged "^10.2.4"
@@ -1829,10 +1829,10 @@
     stylelint "^13.7.2"
     typescript "4.x"
 
-"@yuanfudao/ok-plugin-style@4.0.0":
-  version "4.0.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-style/download/@yuanfudao/ok-plugin-style-4.0.0.tgz#0745b865163d7ae66f3dc2bb4756fe428f0f3a58"
-  integrity sha1-B0W4ZRY9euZvPcK7R1b+Qo8POlg=
+"@yuanfudao/ok-plugin-style@4.2.0":
+  version "4.2.0"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-style/download/@yuanfudao/ok-plugin-style-4.2.0.tgz#4d486cc3bf71a0120067e1ee28ea482752d1c689"
+  integrity sha1-TUhsw79xoBIAZ+HuKOpIJ1LRxok=
   dependencies:
     autoprefixer "^9.8.0"
     css-loader "^4.0.0"
@@ -1850,48 +1850,48 @@
     url-loader "^4.1.1"
     webpack "4.x"
 
-"@yuanfudao/ok-plugin-version@4.0.0":
-  version "4.0.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-version/download/@yuanfudao/ok-plugin-version-4.0.0.tgz#3fc8fcf32764ede3f40edafe01c38ed23388e8f7"
-  integrity sha1-P8j88ydk7eP0Dtr+AcOO0jOI6Pc=
+"@yuanfudao/ok-plugin-version@4.2.0":
+  version "4.2.0"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-version/download/@yuanfudao/ok-plugin-version-4.2.0.tgz#38f827827d29876563914923286e344b1bd7646f"
+  integrity sha1-OPgngn0ph2VjkUkjKG40SxvXZG8=
   dependencies:
-    "@yuanfudao/ok-shared" "4.0.0"
-    "@yuanfudao/ok-webpack-plugin-version" "4.0.0"
+    "@yuanfudao/ok-shared" "4.2.0"
+    "@yuanfudao/ok-webpack-plugin-version" "4.2.0"
     html-webpack-plugin "4.0.0-alpha"
 
-"@yuanfudao/ok-plugin-vue@4.0.0":
-  version "4.0.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-vue/download/@yuanfudao/ok-plugin-vue-4.0.0.tgz#a84d23f5f7b319c61a1be06b4b352bf4048fa66e"
-  integrity sha1-qE0j9fezGcYaG+BrSzUr9ASPpm4=
+"@yuanfudao/ok-plugin-vue@4.2.0":
+  version "4.2.0"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-vue/download/@yuanfudao/ok-plugin-vue-4.2.0.tgz#86e9a06c7843a053fa39504f795350f9bcbf962c"
+  integrity sha1-humgbHhDoFP6OVBPeVNQ+by/liw=
   dependencies:
-    "@yuanfudao/ok-plugin-dll" "4.0.0"
-    "@yuanfudao/ok-shared" "4.0.0"
+    "@yuanfudao/ok-plugin-dll" "4.2.0"
+    "@yuanfudao/ok-shared" "4.2.0"
     css-loader "^5.0.0"
     vue-loader "^15.9.0"
     webpack "4.x"
   optionalDependencies:
     vue-loader-v16 "npm:vue-loader@^16.0.0"
 
-"@yuanfudao/ok-preset-vue-pc@^4.0.0":
-  version "4.0.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-preset-vue-pc/download/@yuanfudao/ok-preset-vue-pc-4.0.0.tgz#ce9f347471d71847eb7492c842ee65ad903f513a"
-  integrity sha1-zp80dHHXGEfrdJLIQu5lrZA/UTo=
+"@yuanfudao/ok-preset-vue@^4.2.0":
+  version "4.2.0"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-preset-vue/download/@yuanfudao/ok-preset-vue-4.2.0.tgz#b2b554ec4356edf68657c4195f493aabdd940b02"
+  integrity sha1-srVU7ENW7faGV8QZX0k6q92UCwI=
   dependencies:
-    "@yuanfudao/babel-preset-vue" "4.0.0"
+    "@yuanfudao/babel-preset-vue" "4.2.0"
     "@yuanfudao/ok-cli" "4.0.0"
-    "@yuanfudao/ok-core" "4.0.0"
-    "@yuanfudao/ok-plugin-babel" "4.0.0"
-    "@yuanfudao/ok-plugin-dll" "4.0.0"
-    "@yuanfudao/ok-plugin-lint" "4.0.0"
-    "@yuanfudao/ok-plugin-style" "4.0.0"
-    "@yuanfudao/ok-plugin-version" "4.0.0"
-    "@yuanfudao/ok-plugin-vue" "4.0.0"
-    "@yuanfudao/ok-shared" "4.0.0"
+    "@yuanfudao/ok-core" "4.2.0"
+    "@yuanfudao/ok-plugin-babel" "4.2.0"
+    "@yuanfudao/ok-plugin-dll" "4.2.0"
+    "@yuanfudao/ok-plugin-lint" "4.2.0"
+    "@yuanfudao/ok-plugin-style" "4.2.0"
+    "@yuanfudao/ok-plugin-version" "4.2.0"
+    "@yuanfudao/ok-plugin-vue" "4.2.0"
+    "@yuanfudao/ok-shared" "4.2.0"
 
-"@yuanfudao/ok-shared@4.0.0":
-  version "4.0.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-shared/download/@yuanfudao/ok-shared-4.0.0.tgz#673d4c07a553f1a3d626ff3d2c1cc0300cf03481"
-  integrity sha1-Zz1MB6VT8aPWJv89LBzAMAzwNIE=
+"@yuanfudao/ok-shared@4.2.0":
+  version "4.2.0"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-shared/download/@yuanfudao/ok-shared-4.2.0.tgz#1d27bc9f6e0acd7e0915fb655af7ef4540db3d0f"
+  integrity sha1-HSe8n24KzX4JFftlWvfvRUDbPQ8=
   dependencies:
     "@types/fs-extra" "^9.0.8"
     "@types/webpack" "^4.41.26"
@@ -1909,17 +1909,17 @@
     webpack "^4.46.0"
     webpack-chain "^6.5.1"
 
-"@yuanfudao/ok-tsconfig@4.0.0":
-  version "4.0.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-tsconfig/download/@yuanfudao/ok-tsconfig-4.0.0.tgz#bc9ffc6638e3bd74a5677e25b685d49a73393ec4"
-  integrity sha1-vJ/8ZjjjvXSlZ34ltoXUmnM5PsQ=
+"@yuanfudao/ok-tsconfig@4.2.0":
+  version "4.2.0"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-tsconfig/download/@yuanfudao/ok-tsconfig-4.2.0.tgz#5c6413b53e853463629cdb633074737eef63cfb2"
+  integrity sha1-XGQTtT6FNGNinNtjMHRzfu9jz7I=
 
-"@yuanfudao/ok-webpack-plugin-version@4.0.0":
-  version "4.0.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-webpack-plugin-version/download/@yuanfudao/ok-webpack-plugin-version-4.0.0.tgz#0e4fb0377895c461541a4e719bae7c10f5d10a18"
-  integrity sha1-Dk+wN3iVxGFUGk5xm658EPXRChg=
+"@yuanfudao/ok-webpack-plugin-version@4.2.0":
+  version "4.2.0"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-webpack-plugin-version/download/@yuanfudao/ok-webpack-plugin-version-4.2.0.tgz#766d1f8c655814d77f49957f7df6c505c23aaba1"
+  integrity sha1-dm0fjGVYFNd/SZV/ffbFBcI6q6E=
   dependencies:
-    "@yuanfudao/ok-shared" "4.0.0"
+    "@yuanfudao/ok-shared" "4.2.0"
 
 accepts@~1.3.4, accepts@~1.3.5, accepts@~1.3.7:
   version "1.3.7"
@@ -3719,9 +3719,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.723:
-  version "1.3.799"
-  resolved "http://npm.zhenguanyu.com/electron-to-chromium/download/electron-to-chromium-1.3.799.tgz#6e9911b25e7ecd5aa1e54dcb68f82a3e02d00f09"
-  integrity sha1-bpkRsl5+zVqh5U3LaPgqPgLQDwk=
+  version "1.3.806"
+  resolved "http://npm.zhenguanyu.com/electron-to-chromium/download/electron-to-chromium-1.3.806.tgz#21502100f11aead6c501d1cd7f2504f16c936642"
+  integrity sha1-IVAhAPEa6tbFAdHNfyUE8WyTZkI=
 
 elliptic@^6.5.3:
   version "6.5.4"
@@ -4802,9 +4802,9 @@ globals@^13.6.0:
     type-fest "^0.20.2"
 
 globals@^13.9.0:
-  version "13.10.0"
-  resolved "http://npm.zhenguanyu.com/globals/download/globals-13.10.0.tgz#60ba56c3ac2ca845cfbf4faeca727ad9dd204676"
-  integrity sha1-YLpWw6wsqEXPv0+uynJ62d0gRnY=
+  version "13.11.0"
+  resolved "http://npm.zhenguanyu.com/globals/download/globals-13.11.0.tgz#40ef678da117fe7bd2e28f1fab24951bd0255be7"
+  integrity sha1-QO9njaEX/nvS4o8fqySVG9AlW+c=
   dependencies:
     type-fest "^0.20.2"
 

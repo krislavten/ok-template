@@ -8,6 +8,9 @@ module.exports = {
   name: 'ok-react-typescript-demo',
   presets: ['react'],
   plugins: {
+    babel: {
+      presets: ['@yuanfudao/babel-preset-react'],
+    },
     version: [
       {
         title: 'ok-react-typescript-demo',

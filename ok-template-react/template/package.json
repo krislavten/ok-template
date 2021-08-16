@@ -35,8 +35,7 @@
     ]
   },
   "devDependencies": {
-    "@yuanfudao/ok-create": "^4.0.0-beta",
-    "@yuanfudao/ok-preset-react": "^4.0.0-beta1",
+    "@yuanfudao/ok-preset-react": "^4.2.0",
     "eslint": "^7.28.0",
     "prettier": "^2.3.1"
   },

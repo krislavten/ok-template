@@ -7,6 +7,9 @@ module.exports = {
   name: 'ep-vue-template',
   presets: ['vue'],
   plugins: {
+    babel: {
+      presets: ['@yuanfudao/babel-preset-vue'],
+    },
     style: {
       loaderOptions: {
         less: {
