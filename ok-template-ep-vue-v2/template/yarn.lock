@@ -1208,6 +1208,14 @@
   resolved "http://npm.zhenguanyu.com/@kokojs/sockjs-client/download/@kokojs/sockjs-client-1.0.0.tgz"
   integrity sha1-GsaM0vE6iodKxYm/k7ze2dZeKx0=
 
+"@mrmlnc/readdir-enhanced@^2.2.1":
+  version "2.2.1"
+  resolved "http://npm.zhenguanyu.com/@mrmlnc/readdir-enhanced/download/@mrmlnc/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
+  integrity sha1-UkryQNGjYFJ7cwR17PoTRKpUDd4=
+  dependencies:
+    call-me-maybe "^1.0.1"
+    glob-to-regexp "^0.3.0"
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "http://npm.zhenguanyu.com/@nodelib/fs.scandir/download/@nodelib/fs.scandir-2.1.5.tgz"
@@ -1220,6 +1228,11 @@
   version "2.0.5"
   resolved "http://npm.zhenguanyu.com/@nodelib/fs.stat/download/@nodelib/fs.stat-2.0.5.tgz"
   integrity sha1-W9Jir5Tp0lvR5xsF3u1Eh2oiLos=
+
+"@nodelib/fs.stat@^1.1.2":
+  version "1.1.3"
+  resolved "http://npm.zhenguanyu.com/@nodelib/fs.stat/download/@nodelib/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
+  integrity sha1-K1o6s/kYzKSKjHVMCBaOPwPrphs=
 
 "@nodelib/fs.stat@^2.0.2":
   version "2.0.4"
@@ -1421,7 +1434,7 @@
   resolved "http://npm.zhenguanyu.com/@types/mime/download/@types/mime-1.3.2.tgz"
   integrity sha1-k+Jb+e51/g/YC1lLxP6w6GIRG1o=
 
-"@types/minimatch@*":
+"@types/minimatch@*", "@types/minimatch@^3.0.3":
   version "3.0.4"
   resolved "http://npm.zhenguanyu.com/@types/minimatch/download/@types/minimatch-3.0.4.tgz"
   integrity sha1-8Owl2/Lw5LGGRzE6wDETTKWySyE=
@@ -1878,10 +1891,10 @@
   resolved "http://npm.zhenguanyu.com/@xtuc/long/download/@xtuc/long-4.2.2.tgz"
   integrity sha1-0pHGpOl5ibXGHZrPOWrk/hM6cY0=
 
-"@yuanfudao/babel-preset-vue@4.2.0":
-  version "4.2.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/babel-preset-vue/download/@yuanfudao/babel-preset-vue-4.2.0.tgz#1fae0e21c8b1888fcadd34039ab2123844e33241"
-  integrity sha1-H64OIcixiI/K3TQDmrISOETjMkE=
+"@yuanfudao/babel-preset-vue@4.2.6":
+  version "4.2.6"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/babel-preset-vue/download/@yuanfudao/babel-preset-vue-4.2.6.tgz#27eb8ae739cb65e5b22d63417ab2db080440c7c1"
+  integrity sha1-J+uK5znLZeWyLWNBerLbCARAx8E=
   dependencies:
     "@babel/core" "^7.13.8"
     "@babel/plugin-proposal-class-properties" "^7.13.0"
@@ -1895,14 +1908,14 @@
     babel-plugin-import "^1.13.3"
     core-js "3.x"
 
-"@yuanfudao/eslint-config-ok@^4.2.0":
-  version "4.2.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/eslint-config-ok/download/@yuanfudao/eslint-config-ok-4.2.0.tgz#a461d638877b619760665cd2e256d37047a6826f"
-  integrity sha1-pGHWOId7YZdgZlzS4lbTcEemgm8=
+"@yuanfudao/eslint-config-ok@^4.2.6":
+  version "4.2.6"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/eslint-config-ok/download/@yuanfudao/eslint-config-ok-4.2.6.tgz#cf9d60f84ed0cf684c294b429168cc541469b451"
+  integrity sha1-z51g+E7Qz2hMKUtCkWjMVBRptFE=
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.7.0"
     "@typescript-eslint/parser" "^4.7.0"
-    "@yuanfudao/ok-shared" "4.2.0"
+    "@yuanfudao/ok-shared" "4.2.6"
     babel-eslint "^10.1.0"
     confusing-browser-globals-fresh "^1.0.2"
     eslint-config-airbnb-base "^14.1.0"
@@ -1915,11 +1928,12 @@
     eslint-plugin-youzan "^1.0.0"
     vue-eslint-parser "^7.1.1"
 
-"@yuanfudao/ok-cli@4.0.0":
-  version "4.0.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-cli/download/@yuanfudao/ok-cli-4.0.0.tgz"
-  integrity sha1-nBP5uIHtg2YfW3qstXhgeODYH2I=
+"@yuanfudao/ok-cli@4.2.0":
+  version "4.2.0"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-cli/download/@yuanfudao/ok-cli-4.2.0.tgz#2de2a8939f55545c3e4b7d962f4df74cbc45b923"
+  integrity sha1-LeKok59VVFw+S32WL033TLxFuSM=
   dependencies:
+    "@yuanfudao/ok-shared" "^4.0.0"
     boxen "^5.0.0"
     chalk "^4.1.0"
     commander "^7.1.0"
@@ -1927,15 +1941,19 @@
     dotenv "^10.0.0"
     dotenv-expand "^5.1.0"
     global-dirs "^3.0.0"
+    inquirer "^8.1.0"
+    tar "^6.1.0"
+    yeoman-environment "^2.8.0"
+    yeoman-generator "^4.12.0"
 
-"@yuanfudao/ok-core@4.2.0":
-  version "4.2.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-core/download/@yuanfudao/ok-core-4.2.0.tgz#251494fa11d67bbe0e287a11022f9710465ae9b4"
-  integrity sha1-JRSU+hHWe74OKHoRAi+XEEZa6bQ=
+"@yuanfudao/ok-core@4.2.6":
+  version "4.2.6"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-core/download/@yuanfudao/ok-core-4.2.6.tgz#b59a711d08e7cb1489e852960e2438548a8dfc46"
+  integrity sha1-tZpxHQjnyxSJ6FKWDiQ4VIqN/EY=
   dependencies:
     "@kokojs/sockjs-client" "1.0.0"
     "@nuxt/friendly-errors-webpack-plugin" "^2.5.0"
-    "@yuanfudao/ok-shared" "4.2.0"
+    "@yuanfudao/ok-shared" "4.2.6"
     case-sensitive-paths-webpack-plugin "^2.4.0"
     get-port "^5.1.1"
     minimist "^1.2.5"
@@ -1946,31 +1964,31 @@
     webpack-merge "^5.7.3"
     webpackbar "^4.0.0"
 
-"@yuanfudao/ok-plugin-babel@4.2.0":
-  version "4.2.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-babel/download/@yuanfudao/ok-plugin-babel-4.2.0.tgz#c025b98b833da117554e84214d832470c191f2d7"
-  integrity sha1-wCW5i4M9oRdVToQhTYMkcMGR8tc=
+"@yuanfudao/ok-plugin-babel@4.2.6":
+  version "4.2.6"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-babel/download/@yuanfudao/ok-plugin-babel-4.2.6.tgz#c1df36920c55291ce468fe5c61022031e0711dff"
+  integrity sha1-wd82kgxVKRzkaP5cYQIgMeBxHf8=
   dependencies:
     "@babel/core" "^7.13.8"
-    "@yuanfudao/ok-shared" "4.2.0"
+    "@yuanfudao/ok-shared" "4.2.6"
     babel-loader "^8.2.2"
     fork-ts-checker-webpack-plugin "^6.1.1"
     webpack "4.x"
 
-"@yuanfudao/ok-plugin-dll@4.2.0":
-  version "4.2.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-dll/download/@yuanfudao/ok-plugin-dll-4.2.0.tgz#7f5928891a7d630f8a6f68e384374b680d74f25b"
-  integrity sha1-f1koiRp9Yw+Kb2jjhDdLaA108ls=
+"@yuanfudao/ok-plugin-dll@4.2.6":
+  version "4.2.6"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-dll/download/@yuanfudao/ok-plugin-dll-4.2.6.tgz#efa563e73ac57a42d2d2910968a0f23a2f9ef433"
+  integrity sha1-76Vj5zrFekLS0pEJaKDyOi+e9DM=
   dependencies:
-    "@yuanfudao/ok-shared" "4.2.0"
+    "@yuanfudao/ok-shared" "4.2.6"
 
-"@yuanfudao/ok-plugin-lint@4.2.0":
-  version "4.2.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-lint/download/@yuanfudao/ok-plugin-lint-4.2.0.tgz#f102ea9d2ecb4bb1f0fc5824748d7636fc1f582e"
-  integrity sha1-8QLqnS7LS7Hw/FgkdI12NvwfWC4=
+"@yuanfudao/ok-plugin-lint@4.2.6":
+  version "4.2.6"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-lint/download/@yuanfudao/ok-plugin-lint-4.2.6.tgz#a727881acf422e7c580ec40a4a06432267e1f0d1"
+  integrity sha1-pyeIGs9CLnxYDsQKSgZDImfh8NE=
   dependencies:
-    "@yuanfudao/ok-shared" "4.2.0"
-    "@yuanfudao/ok-tsconfig" "4.2.0"
+    "@yuanfudao/ok-shared" "4.2.6"
+    "@yuanfudao/ok-tsconfig" "4.2.6"
     eslint "^6.8.0"
     husky "^4.3.0"
     lint-staged "^10.2.4"
@@ -1978,10 +1996,10 @@
     stylelint "^13.7.2"
     typescript "4.x"
 
-"@yuanfudao/ok-plugin-style@4.2.0":
-  version "4.2.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-style/download/@yuanfudao/ok-plugin-style-4.2.0.tgz#4d486cc3bf71a0120067e1ee28ea482752d1c689"
-  integrity sha1-TUhsw79xoBIAZ+HuKOpIJ1LRxok=
+"@yuanfudao/ok-plugin-style@4.2.6":
+  version "4.2.6"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-style/download/@yuanfudao/ok-plugin-style-4.2.6.tgz#f5ae371a459ccf74d0d662a1cbfdb6497e241feb"
+  integrity sha1-9a43GkWcz3TQ1mKhy/22SX4kH+s=
   dependencies:
     autoprefixer "^9.8.0"
     css-loader "^4.0.0"
@@ -1999,48 +2017,48 @@
     url-loader "^4.1.1"
     webpack "4.x"
 
-"@yuanfudao/ok-plugin-version@4.2.0":
-  version "4.2.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-version/download/@yuanfudao/ok-plugin-version-4.2.0.tgz#38f827827d29876563914923286e344b1bd7646f"
-  integrity sha1-OPgngn0ph2VjkUkjKG40SxvXZG8=
+"@yuanfudao/ok-plugin-version@4.2.6":
+  version "4.2.6"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-version/download/@yuanfudao/ok-plugin-version-4.2.6.tgz#3dbfaebd964adacff8ab2fe4d7bbf19eb317b364"
+  integrity sha1-Pb+uvZZK2s/4qy/k17vxnrMXs2Q=
   dependencies:
-    "@yuanfudao/ok-shared" "4.2.0"
-    "@yuanfudao/ok-webpack-plugin-version" "4.2.0"
+    "@yuanfudao/ok-shared" "4.2.6"
+    "@yuanfudao/ok-webpack-plugin-version" "4.2.6"
     html-webpack-plugin "4.0.0-alpha"
 
-"@yuanfudao/ok-plugin-vue@4.2.0":
-  version "4.2.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-vue/download/@yuanfudao/ok-plugin-vue-4.2.0.tgz#86e9a06c7843a053fa39504f795350f9bcbf962c"
-  integrity sha1-humgbHhDoFP6OVBPeVNQ+by/liw=
+"@yuanfudao/ok-plugin-vue@4.2.6":
+  version "4.2.6"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-plugin-vue/download/@yuanfudao/ok-plugin-vue-4.2.6.tgz#b64ed100bdc5272b338975e06d181161ce2757ac"
+  integrity sha1-tk7RAL3FJysziXXgbRgRYc4nV6w=
   dependencies:
-    "@yuanfudao/ok-plugin-dll" "4.2.0"
-    "@yuanfudao/ok-shared" "4.2.0"
+    "@yuanfudao/ok-plugin-dll" "4.2.6"
+    "@yuanfudao/ok-shared" "4.2.6"
     css-loader "^5.0.0"
     vue-loader "^15.9.0"
     webpack "4.x"
   optionalDependencies:
     vue-loader-v16 "npm:vue-loader@^16.0.0"
 
-"@yuanfudao/ok-preset-vue@^4.2.0":
-  version "4.2.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-preset-vue/download/@yuanfudao/ok-preset-vue-4.2.0.tgz#b2b554ec4356edf68657c4195f493aabdd940b02"
-  integrity sha1-srVU7ENW7faGV8QZX0k6q92UCwI=
+"@yuanfudao/ok-preset-vue@^4.2.6":
+  version "4.2.6"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-preset-vue/download/@yuanfudao/ok-preset-vue-4.2.6.tgz#dd86a630c34682df603d3b29fec3d4832640ce97"
+  integrity sha1-3YamMMNGgt9gPTsp/sPUgyZAzpc=
   dependencies:
-    "@yuanfudao/babel-preset-vue" "4.2.0"
-    "@yuanfudao/ok-cli" "4.0.0"
-    "@yuanfudao/ok-core" "4.2.0"
-    "@yuanfudao/ok-plugin-babel" "4.2.0"
-    "@yuanfudao/ok-plugin-dll" "4.2.0"
-    "@yuanfudao/ok-plugin-lint" "4.2.0"
-    "@yuanfudao/ok-plugin-style" "4.2.0"
-    "@yuanfudao/ok-plugin-version" "4.2.0"
-    "@yuanfudao/ok-plugin-vue" "4.2.0"
-    "@yuanfudao/ok-shared" "4.2.0"
+    "@yuanfudao/babel-preset-vue" "4.2.6"
+    "@yuanfudao/ok-cli" "4.2.0"
+    "@yuanfudao/ok-core" "4.2.6"
+    "@yuanfudao/ok-plugin-babel" "4.2.6"
+    "@yuanfudao/ok-plugin-dll" "4.2.6"
+    "@yuanfudao/ok-plugin-lint" "4.2.6"
+    "@yuanfudao/ok-plugin-style" "4.2.6"
+    "@yuanfudao/ok-plugin-version" "4.2.6"
+    "@yuanfudao/ok-plugin-vue" "4.2.6"
+    "@yuanfudao/ok-shared" "4.2.6"
 
-"@yuanfudao/ok-shared@4.2.0":
-  version "4.2.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-shared/download/@yuanfudao/ok-shared-4.2.0.tgz#1d27bc9f6e0acd7e0915fb655af7ef4540db3d0f"
-  integrity sha1-HSe8n24KzX4JFftlWvfvRUDbPQ8=
+"@yuanfudao/ok-shared@4.2.6", "@yuanfudao/ok-shared@^4.0.0":
+  version "4.2.6"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-shared/download/@yuanfudao/ok-shared-4.2.6.tgz#d58ccbe1e66be0b6f94aec047f0cee11a740af23"
+  integrity sha1-1YzL4eZr4Lb5SuwEfwzuEadAryM=
   dependencies:
     "@types/fs-extra" "^9.0.8"
     "@types/webpack" "^4.41.26"
@@ -2058,17 +2076,25 @@
     webpack "^4.46.0"
     webpack-chain "^6.5.1"
 
-"@yuanfudao/ok-tsconfig@4.2.0":
-  version "4.2.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-tsconfig/download/@yuanfudao/ok-tsconfig-4.2.0.tgz#5c6413b53e853463629cdb633074737eef63cfb2"
-  integrity sha1-XGQTtT6FNGNinNtjMHRzfu9jz7I=
+"@yuanfudao/ok-tsconfig@4.2.6":
+  version "4.2.6"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-tsconfig/download/@yuanfudao/ok-tsconfig-4.2.6.tgz#f94b3910ebc36b2781c61a940264384c7116e636"
+  integrity sha1-+Us5EOvDayeBxhqUAmQ4THEW5jY=
 
-"@yuanfudao/ok-webpack-plugin-version@4.2.0":
-  version "4.2.0"
-  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-webpack-plugin-version/download/@yuanfudao/ok-webpack-plugin-version-4.2.0.tgz#766d1f8c655814d77f49957f7df6c505c23aaba1"
-  integrity sha1-dm0fjGVYFNd/SZV/ffbFBcI6q6E=
+"@yuanfudao/ok-webpack-plugin-version@4.2.6":
+  version "4.2.6"
+  resolved "http://npm.zhenguanyu.com/@yuanfudao/ok-webpack-plugin-version/download/@yuanfudao/ok-webpack-plugin-version-4.2.6.tgz#7655ed708db378ea0f6b9d9c74f0b8f9ddba4fd3"
+  integrity sha1-dlXtcI2zeOoPa52cdPC4+d26T9M=
   dependencies:
-    "@yuanfudao/ok-shared" "4.2.0"
+    "@yuanfudao/ok-shared" "4.2.6"
+
+JSONStream@^1.2.1, JSONStream@^1.3.5:
+  version "1.3.5"
+  resolved "http://npm.zhenguanyu.com/JSONStream/download/JSONStream-1.3.5.tgz#3208c1f08d3a4d99261ab64f92302bc15e111ca0"
+  integrity sha1-MgjB8I06TZkmGrZPkjArwV4RHKA=
+  dependencies:
+    jsonparse "^1.2.0"
+    through ">=2.2.7 <3"
 
 accepts@~1.3.4, accepts@~1.3.5, accepts@~1.3.7:
   version "1.3.7"
@@ -2305,6 +2331,11 @@ arr-union@^3.1.0:
   resolved "http://npm.zhenguanyu.com/arr-union/download/arr-union-3.1.0.tgz"
   integrity sha1-45sJrqne+Gao8gbiiK9jkZuuOcQ=
 
+array-differ@^3.0.0:
+  version "3.0.0"
+  resolved "http://npm.zhenguanyu.com/array-differ/download/array-differ-3.0.0.tgz#3cbb3d0f316810eafcc47624734237d6aee4ae6b"
+  integrity sha1-PLs9DzFoEOr8xHYkc0I31q7krms=
+
 array-flatten@1.1.1:
   version "1.1.1"
   resolved "http://npm.zhenguanyu.com/array-flatten/download/array-flatten-1.1.1.tgz"
@@ -2331,7 +2362,7 @@ array-tree-filter@^2.1.0:
   resolved "http://npm.zhenguanyu.com/array-tree-filter/download/array-tree-filter-2.1.0.tgz"
   integrity sha1-hzrAD+yDdJ8lWsjdCDgUtPYykZA=
 
-array-union@^1.0.1:
+array-union@^1.0.1, array-union@^1.0.2:
   version "1.0.2"
   resolved "http://npm.zhenguanyu.com/array-union/download/array-union-1.0.2.tgz"
   integrity sha1-mjRBDk9OPaI96jdb5b5w8kd47Dk=
@@ -2376,6 +2407,11 @@ arrify@^1.0.1:
   version "1.0.1"
   resolved "http://npm.zhenguanyu.com/arrify/download/arrify-1.0.1.tgz"
   integrity sha1-iYUI2iIm84DfkEcoRWhJwVAaSw0=
+
+arrify@^2.0.1:
+  version "2.0.1"
+  resolved "http://npm.zhenguanyu.com/arrify/download/arrify-2.0.1.tgz#c9655e9331e0abcd588d2a7cad7e9956f66701fa"
+  integrity sha1-yWVekzHgq81YjSp8rX6ZVvZnAfo=
 
 asn1.js@^5.2.0:
   version "5.4.1"
@@ -2424,6 +2460,11 @@ async-validator@^3.0.3:
   version "3.5.2"
   resolved "http://npm.zhenguanyu.com/async-validator/download/async-validator-3.5.2.tgz"
   integrity sha1-aOhmqWgk6LJpT/eoMcGiXETV5QA=
+
+async@0.9.x:
+  version "0.9.2"
+  resolved "http://npm.zhenguanyu.com/async/download/async-0.9.2.tgz#aea74d5e61c1f899613bf64bda66d4c78f2fd17d"
+  integrity sha1-rqdNXmHB+JlhO/ZL2mbUx48v0X0=
 
 async@^2.6.2:
   version "2.6.3"
@@ -2603,6 +2644,11 @@ binary-extensions@^2.0.0:
   version "2.2.0"
   resolved "http://npm.zhenguanyu.com/binary-extensions/download/binary-extensions-2.2.0.tgz"
   integrity sha1-dfUC7q+f/eQvyYgpZFvk6na9ni0=
+
+binaryextensions@^2.1.2:
+  version "2.3.0"
+  resolved "http://npm.zhenguanyu.com/binaryextensions/download/binaryextensions-2.3.0.tgz#1d269cbf7e6243ea886aa41453c3651ccbe13c22"
+  integrity sha1-HSacv35iQ+qIaqQUU8NlHMvhPCI=
 
 bindings@^1.5.0:
   version "1.5.0"
@@ -3000,6 +3046,11 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001219:
   resolved "http://npm.zhenguanyu.com/caniuse-lite/download/caniuse-lite-1.0.30001235.tgz"
   integrity sha1-rVynW8Wh97Et95rYBtcVpDpaxO0=
 
+capture-stack-trace@^1.0.0:
+  version "1.0.1"
+  resolved "http://npm.zhenguanyu.com/capture-stack-trace/download/capture-stack-trace-1.0.1.tgz#a6c0bbe1f38f3aa0b92238ecb6ff42c344d4135d"
+  integrity sha1-psC74fOPOqC5Ijjstv9Cw0TUE10=
+
 case-sensitive-paths-webpack-plugin@^2.4.0:
   version "2.4.0"
   resolved "http://npm.zhenguanyu.com/case-sensitive-paths-webpack-plugin/download/case-sensitive-paths-webpack-plugin-2.4.0.tgz"
@@ -3014,7 +3065,7 @@ chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.3.2, chalk@^2.4.1, chalk@^2.4
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@^4.0.0, chalk@^4.1.0:
+chalk@^4.0.0, chalk@^4.1.0, chalk@^4.1.1:
   version "4.1.1"
   resolved "http://npm.zhenguanyu.com/chalk/download/chalk-4.1.1.tgz"
   integrity sha1-yAs/qyi/Y3HmhjMl7uZ+YYt35q0=
@@ -3104,6 +3155,11 @@ chownr@^1.1.1:
   version "1.1.4"
   resolved "http://npm.zhenguanyu.com/chownr/download/chownr-1.1.4.tgz"
   integrity sha1-b8nXtC0ypYNZYzdmbn0ICE2izGs=
+
+chownr@^2.0.0:
+  version "2.0.0"
+  resolved "http://npm.zhenguanyu.com/chownr/download/chownr-2.0.0.tgz#15bfbe53d2eab4cf70f18a8cd68ebe5b3cb1dece"
+  integrity sha1-Fb++U9LqtM9w8YqM1o6+Wzyx3s4=
 
 chrome-trace-event@^1.0.2:
   version "1.0.3"
@@ -3208,6 +3264,13 @@ cli-table3@^0.6.0:
   optionalDependencies:
     colors "^1.1.2"
 
+cli-table@^0.3.1:
+  version "0.3.6"
+  resolved "http://npm.zhenguanyu.com/cli-table/download/cli-table-0.3.6.tgz#e9d6aa859c7fe636981fd3787378c2a20bce92fc"
+  integrity sha1-6daqhZx/5jaYH9N4c3jCogvOkvw=
+  dependencies:
+    colors "1.0.3"
+
 cli-truncate@^2.1.0:
   version "2.1.0"
   resolved "http://npm.zhenguanyu.com/cli-truncate/download/cli-truncate-2.1.0.tgz"
@@ -3239,6 +3302,11 @@ cliui@^7.0.2:
     strip-ansi "^6.0.0"
     wrap-ansi "^7.0.0"
 
+clone-buffer@^1.0.0:
+  version "1.0.0"
+  resolved "http://npm.zhenguanyu.com/clone-buffer/download/clone-buffer-1.0.0.tgz#e3e25b207ac4e701af721e2cb5a16792cac3dc58"
+  integrity sha1-4+JbIHrE5wGvch4staFnksrD3Fg=
+
 clone-deep@^4.0.1:
   version "4.0.1"
   resolved "http://npm.zhenguanyu.com/clone-deep/download/clone-deep-4.0.1.tgz"
@@ -3262,6 +3330,11 @@ clone-response@^1.0.2:
   dependencies:
     mimic-response "^1.0.0"
 
+clone-stats@^1.0.0:
+  version "1.0.0"
+  resolved "http://npm.zhenguanyu.com/clone-stats/download/clone-stats-1.0.0.tgz#b3782dff8bb5474e18b9b6bf0fdfe782f8777680"
+  integrity sha1-s3gt/4u1R04Yuba/D9/ngvh3doA=
+
 clone@^1.0.2:
   version "1.0.4"
   resolved "http://npm.zhenguanyu.com/clone/download/clone-1.0.4.tgz"
@@ -3271,6 +3344,15 @@ clone@^2.1.1:
   version "2.1.2"
   resolved "http://npm.zhenguanyu.com/clone/download/clone-2.1.2.tgz"
   integrity sha1-G39Ln1kfHo+DZwQBYANFoCiHQ18=
+
+cloneable-readable@^1.0.0:
+  version "1.1.3"
+  resolved "http://npm.zhenguanyu.com/cloneable-readable/download/cloneable-readable-1.1.3.tgz#120a00cb053bfb63a222e709f9683ea2e11d8cec"
+  integrity sha1-EgoAywU7+2OiIucJ+Wg+ouEdjOw=
+  dependencies:
+    inherits "^2.0.1"
+    process-nextick-args "^2.0.0"
+    readable-stream "^2.3.5"
 
 cluster-key-slot@^1.1.0:
   version "1.1.0"
@@ -3338,6 +3420,11 @@ colorette@^1.2.1, colorette@^1.2.2:
   version "1.2.2"
   resolved "http://npm.zhenguanyu.com/colorette/download/colorette-1.2.2.tgz"
   integrity sha1-y8x51emcrqLb8Q6zom/Ys+as+pQ=
+
+colors@1.0.3:
+  version "1.0.3"
+  resolved "http://npm.zhenguanyu.com/colors/download/colors-1.0.3.tgz#0433f44d809680fdeb60ed260f1b0c262e82a40b"
+  integrity sha1-BDP0TYCWgP3rYO0mDxsMJi6CpAs=
 
 colors@^1.1.2:
   version "1.4.0"
@@ -3616,6 +3703,13 @@ create-ecdh@^4.0.0:
     bn.js "^4.1.0"
     elliptic "^6.5.3"
 
+create-error-class@^3.0.0:
+  version "3.0.2"
+  resolved "http://npm.zhenguanyu.com/create-error-class/download/create-error-class-3.0.2.tgz#06be7abef947a3f14a30fd610671d401bca8b7b6"
+  integrity sha1-Br56vvlHo/FKMP1hBnHUAbyot7Y=
+  dependencies:
+    capture-stack-trace "^1.0.0"
+
 create-hash@^1.1.0, create-hash@^1.1.2, create-hash@^1.2.0:
   version "1.2.0"
   resolved "http://npm.zhenguanyu.com/create-hash/download/create-hash-1.2.0.tgz"
@@ -3877,10 +3971,20 @@ d@1, d@^1.0.1:
     es5-ext "^0.10.50"
     type "^1.0.1"
 
+dargs@^6.1.0:
+  version "6.1.0"
+  resolved "http://npm.zhenguanyu.com/dargs/download/dargs-6.1.0.tgz#1f3b9b56393ecf8caa7cbfd6c31496ffcfb9b272"
+  integrity sha1-HzubVjk+z4yqfL/WwxSW/8+5snI=
+
 date-fns@^2.17.0:
   version "2.22.1"
   resolved "http://npm.zhenguanyu.com/date-fns/download/date-fns-2.22.1.tgz"
   integrity sha1-Hlr5WYMeux2CmSv2e3ZQUtjw78Q=
+
+dateformat@^3.0.3:
+  version "3.0.3"
+  resolved "http://npm.zhenguanyu.com/dateformat/download/dateformat-3.0.3.tgz#a6e37499a4d9a9cf85ef5872044d62901c9889ae"
+  integrity sha1-puN0maTZqc+F71hyBE1ikByYia4=
 
 dayjs@^1.8.32:
   version "1.10.5"
@@ -3899,7 +4003,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
-debug@^3.1.1, debug@^3.2.6, debug@^3.2.7:
+debug@^3.1.0, debug@^3.1.1, debug@^3.2.6, debug@^3.2.7:
   version "3.2.7"
   resolved "http://npm.zhenguanyu.com/debug/download/debug-3.2.7.tgz"
   integrity sha1-clgLfpFF+zm2Z2+cXl+xALk0F5o=
@@ -3955,7 +4059,7 @@ deep-equal@^1.0.1:
     object-keys "^1.1.1"
     regexp.prototype.flags "^1.2.0"
 
-deep-extend@~0.6.0:
+deep-extend@^0.6.0, deep-extend@~0.6.0:
   version "0.6.0"
   resolved "http://npm.zhenguanyu.com/deep-extend/download/deep-extend-0.6.0.tgz"
   integrity sha1-xPp8lUBKF6nD6Mp+FTcxK3NjMKw=
@@ -4070,6 +4174,11 @@ detect-node@^2.0.4:
   resolved "http://npm.zhenguanyu.com/detect-node/download/detect-node-2.0.5.tgz"
   integrity sha1-nScKp+qlrwtyxMnZuBTn9M5zi3k=
 
+diff@^3.5.0:
+  version "3.5.0"
+  resolved "http://npm.zhenguanyu.com/diff/download/diff-3.5.0.tgz#800c0dd1e0a8bfbc95835c202ad220fe317e5a12"
+  integrity sha1-gAwN0eCov7yVg1wgKtIg/jF+WhI=
+
 diff@^4.0.1:
   version "4.0.2"
   resolved "http://npm.zhenguanyu.com/diff/download/diff-4.0.2.tgz"
@@ -4083,6 +4192,21 @@ diffie-hellman@^5.0.0:
     bn.js "^4.1.0"
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
+
+dir-glob@2.0.0:
+  version "2.0.0"
+  resolved "http://npm.zhenguanyu.com/dir-glob/download/dir-glob-2.0.0.tgz#0b205d2b6aef98238ca286598a8204d29d0a0034"
+  integrity sha1-CyBdK2rvmCOMooZZioIE0p0KADQ=
+  dependencies:
+    arrify "^1.0.1"
+    path-type "^3.0.0"
+
+dir-glob@^2.2.2:
+  version "2.2.2"
+  resolved "http://npm.zhenguanyu.com/dir-glob/download/dir-glob-2.2.2.tgz#fa09f0694153c8918b18ba0deafae94769fc50c4"
+  integrity sha1-+gnwaUFTyJGLGLoN6vrpR2n8UMQ=
+  dependencies:
+    path-type "^3.0.0"
 
 dir-glob@^3.0.1:
   version "3.0.1"
@@ -4216,6 +4340,20 @@ dotenv@^10.0.0:
   resolved "http://npm.zhenguanyu.com/dotenv/download/dotenv-10.0.0.tgz"
   integrity sha1-PUInuPuV+BCWzdK2ZlP7LHCFuoE=
 
+download-stats@^0.3.4:
+  version "0.3.4"
+  resolved "http://npm.zhenguanyu.com/download-stats/download/download-stats-0.3.4.tgz#67ea0c32f14acd9f639da704eef509684ba2dae7"
+  integrity sha1-Z+oMMvFKzZ9jnacE7vUJaEui2uc=
+  dependencies:
+    JSONStream "^1.2.1"
+    lazy-cache "^2.0.1"
+    moment "^2.15.1"
+
+duplexer3@^0.1.4:
+  version "0.1.4"
+  resolved "http://npm.zhenguanyu.com/duplexer3/download/duplexer3-0.1.4.tgz#ee01dd1cac0ed3cbc7fdbea37dc0a8f1ce002ce2"
+  integrity sha1-7gHdHKwO08vH/b6jfcCo8c4ALOI=
+
 duplexer@^0.1.2:
   version "0.1.2"
   resolved "http://npm.zhenguanyu.com/duplexer/download/duplexer-0.1.2.tgz"
@@ -4231,10 +4369,30 @@ duplexify@^3.4.2, duplexify@^3.6.0:
     readable-stream "^2.0.0"
     stream-shift "^1.0.0"
 
+editions@^2.2.0:
+  version "2.3.1"
+  resolved "http://npm.zhenguanyu.com/editions/download/editions-2.3.1.tgz#3bc9962f1978e801312fbd0aebfed63b49bfe698"
+  integrity sha1-O8mWLxl46AExL70K6/7WO0m/5pg=
+  dependencies:
+    errlop "^2.0.0"
+    semver "^6.3.0"
+
 ee-first@1.1.1:
   version "1.1.1"
   resolved "http://npm.zhenguanyu.com/ee-first/download/ee-first-1.1.1.tgz"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
+
+ejs@^2.6.1:
+  version "2.7.4"
+  resolved "http://npm.zhenguanyu.com/ejs/download/ejs-2.7.4.tgz#48661287573dcc53e366c7a1ae52c3a120eec9ba"
+  integrity sha1-SGYSh1c9zFPjZsehrlLDoSDuybo=
+
+ejs@^3.1.5:
+  version "3.1.6"
+  resolved "http://npm.zhenguanyu.com/ejs/download/ejs-3.1.6.tgz#5bfd0a0689743bb5268b3550cceeebbc1702822a"
+  integrity sha1-W/0KBol0O7UmizVQzO7rvBcCgio=
+  dependencies:
+    jake "^10.6.1"
 
 electron-to-chromium@^1.3.723:
   version "1.3.798"
@@ -4312,6 +4470,11 @@ entities@^2.0.0:
   resolved "http://npm.zhenguanyu.com/entities/download/entities-2.2.0.tgz"
   integrity sha1-CY3JDruD2N/6CJ1VJWs1HTTE2lU=
 
+errlop@^2.0.0:
+  version "2.2.0"
+  resolved "http://npm.zhenguanyu.com/errlop/download/errlop-2.2.0.tgz#1ff383f8f917ae328bebb802d6ca69666a42d21b"
+  integrity sha1-H/OD+PkXrjKL67gC1sppZmpC0hs=
+
 errno@^0.1.1, errno@^0.1.3, errno@~0.1.7:
   version "0.1.8"
   resolved "http://npm.zhenguanyu.com/errno/download/errno-0.1.8.tgz"
@@ -4332,6 +4495,13 @@ error-stack-parser@^2.0.0, error-stack-parser@^2.0.6:
   integrity sha1-WpmnB716TFinl5AtSNgoA+3mqtg=
   dependencies:
     stackframe "^1.1.1"
+
+error@^7.0.2:
+  version "7.2.1"
+  resolved "http://npm.zhenguanyu.com/error/download/error-7.2.1.tgz#eab21a4689b5f684fc83da84a0e390de82d94894"
+  integrity sha1-6rIaRom19oT8g9qEoOOQ3oLZSJQ=
+  dependencies:
+    string-template "~0.2.1"
 
 es-abstract@^1.17.2, es-abstract@^1.18.0-next.1, es-abstract@^1.18.0-next.2:
   version "1.18.0"
@@ -4433,7 +4603,7 @@ escape-html@~1.0.3:
   resolved "http://npm.zhenguanyu.com/escape-html/download/escape-html-1.0.3.tgz"
   integrity sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
 
-escape-string-regexp@^1.0.5:
+escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "http://npm.zhenguanyu.com/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
@@ -4781,7 +4951,7 @@ execa@^1.0.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
-execa@^4.1.0:
+execa@^4.0.0, execa@^4.1.0:
   version "4.1.0"
   resolved "http://npm.zhenguanyu.com/execa/download/execa-4.1.0.tgz"
   integrity sha1-TlSRrRVy8vF6d9OIxshXE1sihHo=
@@ -4927,6 +5097,18 @@ fast-diff@^1.1.2:
   resolved "http://npm.zhenguanyu.com/fast-diff/download/fast-diff-1.2.0.tgz#73ee11982d86caaf7959828d519cfe927fac5f03"
   integrity sha1-c+4RmC2Gyq95WYKNUZz+kn+sXwM=
 
+fast-glob@^2.0.2, fast-glob@^2.2.6:
+  version "2.2.7"
+  resolved "http://npm.zhenguanyu.com/fast-glob/download/fast-glob-2.2.7.tgz#6953857c3afa475fff92ee6015d52da70a4cd39d"
+  integrity sha1-aVOFfDr6R1//ku5gFdUtpwpM050=
+  dependencies:
+    "@mrmlnc/readdir-enhanced" "^2.2.1"
+    "@nodelib/fs.stat" "^1.1.2"
+    glob-parent "^3.1.0"
+    is-glob "^4.0.0"
+    merge2 "^1.2.3"
+    micromatch "^3.1.10"
+
 fast-glob@^3.1.1, fast-glob@^3.2.5:
   version "3.2.5"
   resolved "http://npm.zhenguanyu.com/fast-glob/download/fast-glob-3.2.5.tgz"
@@ -5027,6 +5209,13 @@ file-uri-to-path@1.0.0:
   resolved "http://npm.zhenguanyu.com/file-uri-to-path/download/file-uri-to-path-1.0.0.tgz"
   integrity sha1-VTp7hEb/b2hDWcRF8eN6BdrMM90=
 
+filelist@^1.0.1:
+  version "1.0.2"
+  resolved "http://npm.zhenguanyu.com/filelist/download/filelist-1.0.2.tgz#80202f21462d4d1c2e214119b1807c1bc0380e5b"
+  integrity sha1-gCAvIUYtTRwuIUEZsYB8G8A4Dls=
+  dependencies:
+    minimatch "^3.0.4"
+
 fill-range@^4.0.0:
   version "4.0.0"
   resolved "http://npm.zhenguanyu.com/fill-range/download/fill-range-4.0.0.tgz"
@@ -5111,6 +5300,13 @@ find-versions@^4.0.0:
   integrity sha1-PFflc7+XdpuMuN8Wk0tieRXaSWU=
   dependencies:
     semver-regex "^3.1.2"
+
+first-chunk-stream@^2.0.0:
+  version "2.0.0"
+  resolved "http://npm.zhenguanyu.com/first-chunk-stream/download/first-chunk-stream-2.0.0.tgz#1bdecdb8e083c0664b91945581577a43a9f31d70"
+  integrity sha1-G97NuOCDwGZLkZRVgVd6Q6nzHXA=
+  dependencies:
+    readable-stream "^2.0.2"
 
 flat-cache@^2.0.1:
   version "2.0.1"
@@ -5238,6 +5434,13 @@ fs-extra@^9.0.0, fs-extra@^9.1.0:
     jsonfile "^6.0.1"
     universalify "^2.0.0"
 
+fs-minipass@^2.0.0:
+  version "2.1.0"
+  resolved "http://npm.zhenguanyu.com/fs-minipass/download/fs-minipass-2.1.0.tgz#7f5036fdbf12c63c169190cbe4199c852271f9fb"
+  integrity sha1-f1A2/b8SxjwWkZDL5BmchSJx+fs=
+  dependencies:
+    minipass "^3.0.0"
+
 fs-monkey@1.0.3:
   version "1.0.3"
   resolved "http://npm.zhenguanyu.com/fs-monkey/download/fs-monkey-1.0.3.tgz"
@@ -5320,6 +5523,11 @@ get-stdin@^8.0.0:
   resolved "http://npm.zhenguanyu.com/get-stdin/download/get-stdin-8.0.0.tgz"
   integrity sha1-y61qc/63X27rIrqeAfiaooqpelM=
 
+get-stream@^3.0.0:
+  version "3.0.0"
+  resolved "http://npm.zhenguanyu.com/get-stream/download/get-stream-3.0.0.tgz#8e943d1358dc37555054ecbe2edb05aa174ede14"
+  integrity sha1-jpQ9E1jcN1VQVOy+LtsFqhdO3hQ=
+
 get-stream@^4.0.0:
   version "4.1.0"
   resolved "http://npm.zhenguanyu.com/get-stream/download/get-stream-4.1.0.tgz"
@@ -5344,6 +5552,21 @@ get-value@^2.0.3, get-value@^2.0.6:
   resolved "http://npm.zhenguanyu.com/get-value/download/get-value-2.0.6.tgz"
   integrity sha1-3BXKHGcjh8p2vTesCjlbogQqLCg=
 
+gh-got@^5.0.0:
+  version "5.0.0"
+  resolved "http://npm.zhenguanyu.com/gh-got/download/gh-got-5.0.0.tgz#ee95be37106fd8748a96f8d1db4baea89e1bfa8a"
+  integrity sha1-7pW+NxBv2HSKlvjR20uuqJ4b+oo=
+  dependencies:
+    got "^6.2.0"
+    is-plain-obj "^1.1.0"
+
+github-username@^3.0.0:
+  version "3.0.0"
+  resolved "http://npm.zhenguanyu.com/github-username/download/github-username-3.0.0.tgz#0a772219b3130743429f2456d0bdd3db55dce7b1"
+  integrity sha1-CnciGbMTB0NCnyRW0L3T21Xc57E=
+  dependencies:
+    gh-got "^5.0.0"
+
 glob-parent@^3.1.0:
   version "3.1.0"
   resolved "http://npm.zhenguanyu.com/glob-parent/download/glob-parent-3.1.0.tgz"
@@ -5366,7 +5589,12 @@ glob-promise@^3.4.0:
   dependencies:
     "@types/glob" "*"
 
-glob@^7.0.3, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6:
+glob-to-regexp@^0.3.0:
+  version "0.3.0"
+  resolved "http://npm.zhenguanyu.com/glob-to-regexp/download/glob-to-regexp-0.3.0.tgz#8c5a1494d2066c570cc3bfe4496175acc4d502ab"
+  integrity sha1-jFoUlNIGbFcMw7/kSWF1rMTVAqs=
+
+glob@^7.0.0, glob@^7.0.3, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6:
   version "7.1.7"
   resolved "http://npm.zhenguanyu.com/glob/download/glob-7.1.7.tgz"
   integrity sha1-Oxk+kjPwHULQs/eClLvutBj5SpA=
@@ -5450,6 +5678,33 @@ globby@^6.1.0:
     pify "^2.0.0"
     pinkie-promise "^2.0.0"
 
+globby@^8.0.1:
+  version "8.0.2"
+  resolved "http://npm.zhenguanyu.com/globby/download/globby-8.0.2.tgz#5697619ccd95c5275dbb2d6faa42087c1a941d8d"
+  integrity sha1-VpdhnM2VxSdduy1vqkIIfBqUHY0=
+  dependencies:
+    array-union "^1.0.1"
+    dir-glob "2.0.0"
+    fast-glob "^2.0.2"
+    glob "^7.1.2"
+    ignore "^3.3.5"
+    pify "^3.0.0"
+    slash "^1.0.0"
+
+globby@^9.2.0:
+  version "9.2.0"
+  resolved "http://npm.zhenguanyu.com/globby/download/globby-9.2.0.tgz#fd029a706c703d29bdd170f4b6db3a3f7a7cb63d"
+  integrity sha1-/QKacGxwPSm90XD0tts6P3p8tj0=
+  dependencies:
+    "@types/glob" "^7.1.1"
+    array-union "^1.0.2"
+    dir-glob "^2.2.2"
+    fast-glob "^2.2.6"
+    glob "^7.1.3"
+    ignore "^4.0.3"
+    pify "^4.0.1"
+    slash "^2.0.0"
+
 globjoin@^0.1.4:
   version "0.1.4"
   resolved "http://npm.zhenguanyu.com/globjoin/download/globjoin-0.1.4.tgz"
@@ -5479,10 +5734,34 @@ got@^11.5.1:
     p-cancelable "^2.0.0"
     responselike "^2.0.0"
 
+got@^6.2.0:
+  version "6.7.1"
+  resolved "http://npm.zhenguanyu.com/got/download/got-6.7.1.tgz#240cd05785a9a18e561dc1b44b41c763ef1e8db0"
+  integrity sha1-JAzQV4WpoY5WHcG0S0HHY+8ejbA=
+  dependencies:
+    create-error-class "^3.0.0"
+    duplexer3 "^0.1.4"
+    get-stream "^3.0.0"
+    is-redirect "^1.0.0"
+    is-retry-allowed "^1.0.0"
+    is-stream "^1.0.0"
+    lowercase-keys "^1.0.0"
+    safe-buffer "^5.0.1"
+    timed-out "^4.0.0"
+    unzip-response "^2.0.1"
+    url-parse-lax "^1.0.0"
+
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   version "4.2.6"
   resolved "http://npm.zhenguanyu.com/graceful-fs/download/graceful-fs-4.2.6.tgz"
   integrity sha1-/wQLKwhTsjw9MQJ1I3BvGIXXa+4=
+
+grouped-queue@^1.1.0:
+  version "1.1.0"
+  resolved "http://npm.zhenguanyu.com/grouped-queue/download/grouped-queue-1.1.0.tgz#63e3f9ca90af952269d1d40879e41221eacc74cb"
+  integrity sha1-Y+P5ypCvlSJp0dQIeeQSIerMdMs=
+  dependencies:
+    lodash "^4.17.15"
 
 gzip-size@^6.0.0:
   version "6.0.0"
@@ -5855,7 +6134,12 @@ iferr@^0.1.5:
   resolved "http://npm.zhenguanyu.com/iferr/download/iferr-0.1.5.tgz"
   integrity sha1-xg7taebY/bazEEofy8ocGS3FtQE=
 
-ignore@^4.0.6:
+ignore@^3.3.5:
+  version "3.3.10"
+  resolved "http://npm.zhenguanyu.com/ignore/download/ignore-3.3.10.tgz#0a97fb876986e8081c631160f8f9f389157f0043"
+  integrity sha1-Cpf7h2mG6AgcYxFg+PnziRV/AEM=
+
+ignore@^4.0.3, ignore@^4.0.6:
   version "4.0.6"
   resolved "http://npm.zhenguanyu.com/ignore/download/ignore-4.0.6.tgz"
   integrity sha1-dQ49tYYgh7RzfrrIIH/9HvJ7Jfw=
@@ -5973,7 +6257,7 @@ inline-style-prefixer@^6.0.0:
   dependencies:
     css-in-js-utils "^2.0.0"
 
-inquirer@^7.0.0:
+inquirer@^7.0.0, inquirer@^7.1.0:
   version "7.3.3"
   resolved "http://npm.zhenguanyu.com/inquirer/download/inquirer-7.3.3.tgz"
   integrity sha1-BNF2sq8Er8FXqD/XwQDpjuCq0AM=
@@ -5988,6 +6272,26 @@ inquirer@^7.0.0:
     mute-stream "0.0.8"
     run-async "^2.4.0"
     rxjs "^6.6.0"
+    string-width "^4.1.0"
+    strip-ansi "^6.0.0"
+    through "^2.3.6"
+
+inquirer@^8.1.0:
+  version "8.1.0"
+  resolved "http://npm.zhenguanyu.com/inquirer/download/inquirer-8.1.0.tgz#68ce5ce5376cf0e89765c993d8b7c1e62e184d69"
+  integrity sha1-aM5c5Tds8OiXZcmT2LfB5i4YTWk=
+  dependencies:
+    ansi-escapes "^4.2.1"
+    chalk "^4.1.1"
+    cli-cursor "^3.1.0"
+    cli-width "^3.0.0"
+    external-editor "^3.0.3"
+    figures "^3.0.0"
+    lodash "^4.17.21"
+    mute-stream "0.0.8"
+    ora "^5.3.0"
+    run-async "^2.4.0"
+    rxjs "^6.6.6"
     string-width "^4.1.0"
     strip-ansi "^6.0.0"
     through "^2.3.6"
@@ -6008,6 +6312,11 @@ internal-slot@^1.0.3:
     get-intrinsic "^1.1.0"
     has "^1.0.3"
     side-channel "^1.0.4"
+
+interpret@^1.0.0:
+  version "1.4.0"
+  resolved "http://npm.zhenguanyu.com/interpret/download/interpret-1.4.0.tgz#665ab8bc4da27a774a40584e812e3e0fa45b1a1e"
+  integrity sha1-Zlq4vE2iendKQFhOgS4+D6RbGh4=
 
 intersperse@^1.0.0:
   version "1.0.0"
@@ -6354,6 +6663,11 @@ is-promise@^2.2.2:
   resolved "http://npm.zhenguanyu.com/is-promise/download/is-promise-2.2.2.tgz"
   integrity sha1-OauVnMv5p3TPB597QMeib3YxNfE=
 
+is-redirect@^1.0.0:
+  version "1.0.0"
+  resolved "http://npm.zhenguanyu.com/is-redirect/download/is-redirect-1.0.0.tgz#1d03dded53bd8db0f30c26e4f95d36fc7c87dc24"
+  integrity sha1-HQPd7VO9jbDzDCbk+V02/HyH3CQ=
+
 is-regex@^1.0.4, is-regex@^1.1.2:
   version "1.1.2"
   resolved "http://npm.zhenguanyu.com/is-regex/download/is-regex-1.1.2.tgz"
@@ -6385,7 +6699,19 @@ is-resolvable@^1.0.0:
   resolved "http://npm.zhenguanyu.com/is-resolvable/download/is-resolvable-1.1.0.tgz"
   integrity sha1-+xj4fOH+uSUWnJpAfBkxijIG7Yg=
 
-is-stream@^1.1.0:
+is-retry-allowed@^1.0.0:
+  version "1.2.0"
+  resolved "http://npm.zhenguanyu.com/is-retry-allowed/download/is-retry-allowed-1.2.0.tgz#d778488bd0a4666a3be8a1482b9f2baafedea8b4"
+  integrity sha1-13hIi9CkZmo76KFIK58rqv7eqLQ=
+
+is-scoped@^1.0.0:
+  version "1.0.0"
+  resolved "http://npm.zhenguanyu.com/is-scoped/download/is-scoped-1.0.0.tgz#449ca98299e713038256289ecb2b540dc437cb30"
+  integrity sha1-RJypgpnnEwOCViieyytUDcQ3yzA=
+  dependencies:
+    scoped-regex "^1.0.0"
+
+is-stream@^1.0.0, is-stream@^1.1.0:
   version "1.1.0"
   resolved "http://npm.zhenguanyu.com/is-stream/download/is-stream-1.1.0.tgz"
   integrity sha1-EtSj3U5o4Lec6428hBc66A2RykQ=
@@ -6431,6 +6757,11 @@ is-upper-case@^1.1.0:
   dependencies:
     upper-case "^1.1.0"
 
+is-utf8@^0.2.0, is-utf8@^0.2.1:
+  version "0.2.1"
+  resolved "http://npm.zhenguanyu.com/is-utf8/download/is-utf8-0.2.1.tgz#4b0da1442104d1b336340e80797e865cf39f7d72"
+  integrity sha1-Sw2hRCEE0bM2NA6AeX6GXPOffXI=
+
 is-what@^3.12.0:
   version "3.14.1"
   resolved "http://npm.zhenguanyu.com/is-what/download/is-what-3.14.1.tgz"
@@ -6450,6 +6781,11 @@ isarray@1.0.0, isarray@^1.0.0, isarray@~1.0.0:
   version "1.0.0"
   resolved "http://npm.zhenguanyu.com/isarray/download/isarray-1.0.0.tgz"
   integrity sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
+
+isbinaryfile@^4.0.0:
+  version "4.0.6"
+  resolved "http://npm.zhenguanyu.com/isbinaryfile/download/isbinaryfile-4.0.6.tgz#edcb62b224e2b4710830b67498c8e4e5a4d2610b"
+  integrity sha1-7ctisiTitHEIMLZ0mMjk5aTSYQs=
 
 isexe@^2.0.0:
   version "2.0.0"
@@ -6479,6 +6815,25 @@ isomorphic-form-data@~2.0.0:
   integrity sha1-n2rfHExhrjrv2PEQq2D7mxQ9bOw=
   dependencies:
     form-data "^2.3.2"
+
+istextorbinary@^2.5.1:
+  version "2.6.0"
+  resolved "http://npm.zhenguanyu.com/istextorbinary/download/istextorbinary-2.6.0.tgz#60776315fb0fa3999add276c02c69557b9ca28ab"
+  integrity sha1-YHdjFfsPo5ma3SdsAsaVV7nKKKs=
+  dependencies:
+    binaryextensions "^2.1.2"
+    editions "^2.2.0"
+    textextensions "^2.5.0"
+
+jake@^10.6.1:
+  version "10.8.2"
+  resolved "http://npm.zhenguanyu.com/jake/download/jake-10.8.2.tgz#ebc9de8558160a66d82d0eadc6a2e58fbc500a7b"
+  integrity sha1-68nehVgWCmbYLQ6txqLlj7xQCns=
+  dependencies:
+    async "0.9.x"
+    chalk "^2.4.2"
+    filelist "^1.0.1"
+    minimatch "^3.0.4"
 
 javascript-stringify@^2.0.1:
   version "2.0.1"
@@ -6618,6 +6973,11 @@ jsonfile@^6.0.1:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
+jsonparse@^1.2.0:
+  version "1.3.1"
+  resolved "http://npm.zhenguanyu.com/jsonparse/download/jsonparse-1.3.1.tgz#3f4dae4a91fac315f71062f8521cc239f1366280"
+  integrity sha1-P02uSpH6wxX3EGL4UhzCOfE2YoA=
+
 "jsx-ast-utils@^2.4.1 || ^3.0.0":
   version "3.2.0"
   resolved "http://npm.zhenguanyu.com/jsx-ast-utils/download/jsx-ast-utils-3.2.0.tgz#41108d2cec408c3453c1bbe8a4aae9e1e2bd8f82"
@@ -6684,6 +7044,13 @@ last-call-webpack-plugin@^3.0.0:
   dependencies:
     lodash "^4.17.5"
     webpack-sources "^1.1.0"
+
+lazy-cache@^2.0.1:
+  version "2.0.2"
+  resolved "http://npm.zhenguanyu.com/lazy-cache/download/lazy-cache-2.0.2.tgz#b9190a4f913354694840859f8a8f7084d8822264"
+  integrity sha1-uRkKT5EzVGlIQIWfio9whNiCImQ=
+  dependencies:
+    set-getter "^0.1.0"
 
 less-loader@^5.0.0:
   version "5.0.0"
@@ -6978,6 +7345,11 @@ lower-case@^1.1.0, lower-case@^1.1.1, lower-case@^1.1.2:
   resolved "http://npm.zhenguanyu.com/lower-case/download/lower-case-1.1.4.tgz"
   integrity sha1-miyr0bno4K6ZOkv31YdcOcQujqw=
 
+lowercase-keys@^1.0.0:
+  version "1.0.1"
+  resolved "http://npm.zhenguanyu.com/lowercase-keys/download/lowercase-keys-1.0.1.tgz#6f9e30b47084d971a7c820ff15a6c5167b74c26f"
+  integrity sha1-b54wtHCE2XGnyCD/FabFFnt0wm8=
+
 lowercase-keys@^2.0.0:
   version "2.0.0"
   resolved "http://npm.zhenguanyu.com/lowercase-keys/download/lowercase-keys-2.0.0.tgz"
@@ -7020,7 +7392,7 @@ make-dir@^2.0.0, make-dir@^2.1.0:
     pify "^4.0.1"
     semver "^5.6.0"
 
-make-dir@^3.0.2, make-dir@^3.1.0:
+make-dir@^3.0.0, make-dir@^3.0.2, make-dir@^3.1.0:
   version "3.1.0"
   resolved "http://npm.zhenguanyu.com/make-dir/download/make-dir-3.1.0.tgz"
   integrity sha1-QV6WcEazp/HRhSd9hKpYIDcmoT8=
@@ -7111,6 +7483,49 @@ media-typer@0.3.0:
   resolved "http://npm.zhenguanyu.com/media-typer/download/media-typer-0.3.0.tgz"
   integrity sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
 
+mem-fs-editor@^6.0.0:
+  version "6.0.0"
+  resolved "http://npm.zhenguanyu.com/mem-fs-editor/download/mem-fs-editor-6.0.0.tgz#d63607cf0a52fe6963fc376c6a7aa52db3edabab"
+  integrity sha1-1jYHzwpS/mlj/DdsanqlLbPtq6s=
+  dependencies:
+    commondir "^1.0.1"
+    deep-extend "^0.6.0"
+    ejs "^2.6.1"
+    glob "^7.1.4"
+    globby "^9.2.0"
+    isbinaryfile "^4.0.0"
+    mkdirp "^0.5.0"
+    multimatch "^4.0.0"
+    rimraf "^2.6.3"
+    through2 "^3.0.1"
+    vinyl "^2.2.0"
+
+mem-fs-editor@^7.0.1:
+  version "7.1.0"
+  resolved "http://npm.zhenguanyu.com/mem-fs-editor/download/mem-fs-editor-7.1.0.tgz#2a16f143228df87bf918874556723a7ee73bfe88"
+  integrity sha1-KhbxQyKN+Hv5GIdFVnI6fuc7/og=
+  dependencies:
+    commondir "^1.0.1"
+    deep-extend "^0.6.0"
+    ejs "^3.1.5"
+    glob "^7.1.4"
+    globby "^9.2.0"
+    isbinaryfile "^4.0.0"
+    mkdirp "^1.0.0"
+    multimatch "^4.0.0"
+    rimraf "^3.0.0"
+    through2 "^3.0.2"
+    vinyl "^2.2.1"
+
+mem-fs@^1.1.0:
+  version "1.2.0"
+  resolved "http://npm.zhenguanyu.com/mem-fs/download/mem-fs-1.2.0.tgz#5f29b2d02a5875cd14cd836c388385892d556cde"
+  integrity sha1-Xymy0CpYdc0UzYNsOIOFiS1VbN4=
+  dependencies:
+    through2 "^3.0.0"
+    vinyl "^2.0.1"
+    vinyl-file "^3.0.0"
+
 memfs@^3.1.2:
   version "3.2.2"
   resolved "http://npm.zhenguanyu.com/memfs/download/memfs-3.2.2.tgz"
@@ -7183,7 +7598,7 @@ merge-stream@^2.0.0:
   resolved "http://npm.zhenguanyu.com/merge-stream/download/merge-stream-2.0.0.tgz"
   integrity sha1-UoI2KaFN0AyXcPtq1H3GMQ8sH2A=
 
-merge2@^1.3.0:
+merge2@^1.2.3, merge2@^1.3.0:
   version "1.4.1"
   resolved "http://npm.zhenguanyu.com/merge2/download/merge2-1.4.1.tgz"
   integrity sha1-Q2iJL4hekHRVpv19xVwMnUBJkK4=
@@ -7323,10 +7738,25 @@ minimist@^1.2.0, minimist@^1.2.5:
   resolved "http://npm.zhenguanyu.com/minimist/download/minimist-1.2.5.tgz"
   integrity sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=
 
+minipass@^3.0.0:
+  version "3.1.3"
+  resolved "http://npm.zhenguanyu.com/minipass/download/minipass-3.1.3.tgz#7d42ff1f39635482e15f9cdb53184deebd5815fd"
+  integrity sha1-fUL/HzljVILhX5zbUxhN7r1YFf0=
+  dependencies:
+    yallist "^4.0.0"
+
 miniprogram-api-typings@^3.2.3:
   version "3.3.1"
   resolved "http://npm.zhenguanyu.com/miniprogram-api-typings/download/miniprogram-api-typings-3.3.1.tgz"
   integrity sha1-HMWEN4c/4BwbTzgqp2ML1z2EjEI=
+
+minizlib@^2.1.1:
+  version "2.1.2"
+  resolved "http://npm.zhenguanyu.com/minizlib/download/minizlib-2.1.2.tgz#e90d3466ba209b932451508a11ce3d3632145931"
+  integrity sha1-6Q00Zrogm5MkUVCKEc49NjIUWTE=
+  dependencies:
+    minipass "^3.0.0"
+    yallist "^4.0.0"
 
 mississippi@^3.0.0:
   version "3.0.0"
@@ -7352,14 +7782,14 @@ mixin-deep@^1.2.0:
     for-in "^1.0.2"
     is-extendable "^1.0.1"
 
-mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@^0.5.5, mkdirp@~0.5.1:
+mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@^0.5.5, mkdirp@~0.5.1:
   version "0.5.5"
   resolved "http://npm.zhenguanyu.com/mkdirp/download/mkdirp-0.5.5.tgz"
   integrity sha1-2Rzv1i0UNsoPQWIOJRKI1CAJne8=
   dependencies:
     minimist "^1.2.5"
 
-mkdirp@^1.0.4:
+mkdirp@^1.0.0, mkdirp@^1.0.3, mkdirp@^1.0.4:
   version "1.0.4"
   resolved "http://npm.zhenguanyu.com/mkdirp/download/mkdirp-1.0.4.tgz"
   integrity sha1-PrXtYmInVteaXw4qIh3+utdcL34=
@@ -7371,7 +7801,7 @@ mockjs@^1.0.1-beta3:
   dependencies:
     commander "*"
 
-moment@^2.21.0:
+moment@^2.15.1, moment@^2.21.0, moment@^2.24.0:
   version "2.29.1"
   resolved "http://npm.zhenguanyu.com/moment/download/moment-2.29.1.tgz"
   integrity sha1-sr52n6MZQL6e7qZGnAdeNQBvo9M=
@@ -7420,6 +7850,17 @@ multicast-dns@^6.0.1:
   dependencies:
     dns-packet "^1.3.1"
     thunky "^1.0.2"
+
+multimatch@^4.0.0:
+  version "4.0.0"
+  resolved "http://npm.zhenguanyu.com/multimatch/download/multimatch-4.0.0.tgz#8c3c0f6e3e8449ada0af3dd29efb491a375191b3"
+  integrity sha1-jDwPbj6ESa2grz3SnvtJGjdRkbM=
+  dependencies:
+    "@types/minimatch" "^3.0.3"
+    array-differ "^3.0.0"
+    array-union "^2.1.0"
+    arrify "^2.0.1"
+    minimatch "^3.0.4"
 
 mutationobserver-shim@^0.3.2:
   version "0.3.7"
@@ -7535,7 +7976,7 @@ node-emoji@^1.10.0:
   dependencies:
     lodash.toarray "^4.4.0"
 
-node-fetch@2.6.1:
+node-fetch@2.6.1, node-fetch@^2.6.0:
   version "2.6.1"
   resolved "http://npm.zhenguanyu.com/node-fetch/download/node-fetch-2.6.1.tgz"
   integrity sha1-BFvTI2Mfdu0uK1VXM5RBa2OaAFI=
@@ -7630,6 +8071,18 @@ normalize-url@^4.1.0:
   version "4.5.1"
   resolved "http://npm.zhenguanyu.com/normalize-url/download/normalize-url-4.5.1.tgz"
   integrity sha1-DdkM8SiO4dExO4cIHJpZMu5IUYo=
+
+npm-api@^1.0.0:
+  version "1.0.1"
+  resolved "http://npm.zhenguanyu.com/npm-api/download/npm-api-1.0.1.tgz#3def9b51afedca57db14ca0c970d92442d21c9c5"
+  integrity sha1-Pe+bUa/tylfbFMoMlw2SRC0hycU=
+  dependencies:
+    JSONStream "^1.3.5"
+    clone-deep "^4.0.1"
+    download-stats "^0.3.4"
+    moment "^2.24.0"
+    node-fetch "^2.6.0"
+    paged-request "^2.0.1"
 
 npm-run-path@^2.0.0:
   version "2.0.2"
@@ -7996,10 +8449,17 @@ p-try@^1.0.0:
   resolved "http://npm.zhenguanyu.com/p-try/download/p-try-1.0.0.tgz#cbc79cdbaf8fd4228e13f621f2b1a237c1b207b3"
   integrity sha1-y8ec26+P1CKOE/Yh8rGiN8GyB7M=
 
-p-try@^2.0.0:
+p-try@^2.0.0, p-try@^2.1.0:
   version "2.2.0"
   resolved "http://npm.zhenguanyu.com/p-try/download/p-try-2.2.0.tgz"
   integrity sha1-yyhoVA4xPWHeWPr741zpAE1VQOY=
+
+paged-request@^2.0.1:
+  version "2.0.2"
+  resolved "http://npm.zhenguanyu.com/paged-request/download/paged-request-2.0.2.tgz#4d621a08b8d6bee4440a0a92112354eeece5b5b0"
+  integrity sha1-TWIaCLjWvuRECgqSESNU7uzltbA=
+  dependencies:
+    axios "^0.21.1"
 
 pako@~1.0.5:
   version "1.0.11"
@@ -8178,7 +8638,7 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.3:
   resolved "http://npm.zhenguanyu.com/picomatch/download/picomatch-2.2.3.tgz"
   integrity sha1-RlVH81nMwgbTxI5Goby4m/fuYZ0=
 
-pify@^2.0.0:
+pify@^2.0.0, pify@^2.3.0:
   version "2.3.0"
   resolved "http://npm.zhenguanyu.com/pify/download/pify-2.3.0.tgz"
   integrity sha1-7RQaasBDqEnqWISY59yosVMw6Qw=
@@ -8699,6 +9159,11 @@ prelude-ls@~1.1.2:
   resolved "http://npm.zhenguanyu.com/prelude-ls/download/prelude-ls-1.1.2.tgz"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
+prepend-http@^1.0.1:
+  version "1.0.4"
+  resolved "http://npm.zhenguanyu.com/prepend-http/download/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
+  integrity sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=
+
 prettier-linter-helpers@^1.0.0:
   version "1.0.0"
   resolved "http://npm.zhenguanyu.com/prettier-linter-helpers/download/prettier-linter-helpers-1.0.0.tgz#d23d41fe1375646de2d0104d3454a3008802cf7b"
@@ -8716,6 +9181,11 @@ prettier@^2.0.5, prettier@^2.2.0, prettier@^2.2.1, prettier@^2.3.1:
   resolved "http://npm.zhenguanyu.com/prettier/download/prettier-2.3.1.tgz"
   integrity sha1-dpA8P4xESbyaxZes76JNxa1MvqY=
 
+pretty-bytes@^5.2.0:
+  version "5.6.0"
+  resolved "http://npm.zhenguanyu.com/pretty-bytes/download/pretty-bytes-5.6.0.tgz#356256f643804773c82f64723fe78c92c62beaeb"
+  integrity sha1-NWJW9kOAR3PIL2RyP+eMksYr6us=
+
 pretty-error@^2.0.2:
   version "2.1.2"
   resolved "http://npm.zhenguanyu.com/pretty-error/download/pretty-error-2.1.2.tgz"
@@ -8729,7 +9199,7 @@ pretty-time@^1.1.0:
   resolved "http://npm.zhenguanyu.com/pretty-time/download/pretty-time-1.1.0.tgz"
   integrity sha1-/7dCmvq7hTXDRqNOQYc63z103Q4=
 
-process-nextick-args@~2.0.0:
+process-nextick-args@^2.0.0, process-nextick-args@~2.0.0:
   version "2.0.1"
   resolved "http://npm.zhenguanyu.com/process-nextick-args/download/process-nextick-args-2.0.1.tgz"
   integrity sha1-eCDZsWEgzFXKmud5JoCufbptf+I=
@@ -8965,6 +9435,14 @@ react-use@^17.2.1:
     ts-easing "^0.2.0"
     tslib "^2.1.0"
 
+read-chunk@^3.2.0:
+  version "3.2.0"
+  resolved "http://npm.zhenguanyu.com/read-chunk/download/read-chunk-3.2.0.tgz#2984afe78ca9bfbbdb74b19387bf9e86289c16ca"
+  integrity sha1-KYSv54ypv7vbdLGTh7+ehiicFso=
+  dependencies:
+    pify "^4.0.1"
+    with-open-file "^0.1.6"
+
 read-pkg-up@^3.0.0:
   version "3.0.0"
   resolved "http://npm.zhenguanyu.com/read-pkg-up/download/read-pkg-up-3.0.0.tgz#3ed496685dba0f8fe118d0691dc51f4a1ff96f07"
@@ -8972,6 +9450,14 @@ read-pkg-up@^3.0.0:
   dependencies:
     find-up "^2.0.0"
     read-pkg "^3.0.0"
+
+read-pkg-up@^5.0.0:
+  version "5.0.0"
+  resolved "http://npm.zhenguanyu.com/read-pkg-up/download/read-pkg-up-5.0.0.tgz#b6a6741cb144ed3610554f40162aa07a6db621b8"
+  integrity sha1-tqZ0HLFE7TYQVU9AFiqgem22Ibg=
+  dependencies:
+    find-up "^3.0.0"
+    read-pkg "^5.0.0"
 
 read-pkg-up@^7.0.1:
   version "7.0.1"
@@ -8991,7 +9477,7 @@ read-pkg@^3.0.0:
     normalize-package-data "^2.3.2"
     path-type "^3.0.0"
 
-read-pkg@^5.2.0:
+read-pkg@^5.0.0, read-pkg@^5.2.0:
   version "5.2.0"
   resolved "http://npm.zhenguanyu.com/read-pkg/download/read-pkg-5.2.0.tgz"
   integrity sha1-e/KVQ4yloz5WzTDgU7NO5yUMk8w=
@@ -9001,7 +9487,7 @@ read-pkg@^5.2.0:
     parse-json "^5.0.0"
     type-fest "^0.6.0"
 
-"readable-stream@1 || 2", readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.3.3, readable-stream@^2.3.6, readable-stream@~2.3.6:
+"readable-stream@1 || 2", readable-stream@^2.0.0, readable-stream@^2.0.1, readable-stream@^2.0.2, readable-stream@^2.1.5, readable-stream@^2.2.2, readable-stream@^2.3.3, readable-stream@^2.3.5, readable-stream@^2.3.6, readable-stream@~2.3.6:
   version "2.3.7"
   resolved "http://npm.zhenguanyu.com/readable-stream/download/readable-stream-2.3.7.tgz"
   integrity sha1-Hsoc9xGu+BTAT2IlKjamL2yyO1c=
@@ -9014,7 +9500,7 @@ read-pkg@^5.2.0:
     string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
 
-readable-stream@^3.0.6, readable-stream@^3.1.1, readable-stream@^3.4.0, readable-stream@^3.6.0:
+"readable-stream@2 || 3", readable-stream@^3.0.6, readable-stream@^3.1.1, readable-stream@^3.4.0, readable-stream@^3.6.0:
   version "3.6.0"
   resolved "http://npm.zhenguanyu.com/readable-stream/download/readable-stream-3.6.0.tgz"
   integrity sha1-M3u9o63AcGvT4CRCaihtS0sskZg=
@@ -9038,6 +9524,13 @@ readdirp@~3.5.0:
   integrity sha1-m6dMAZsV02UnjS6Ru4xI17TULJ4=
   dependencies:
     picomatch "^2.2.1"
+
+rechoir@^0.6.2:
+  version "0.6.2"
+  resolved "http://npm.zhenguanyu.com/rechoir/download/rechoir-0.6.2.tgz#85204b54dba82d5742e28c96756ef43af50e3384"
+  integrity sha1-hSBLVNuoLVdC4oyWdW70OvUOM4Q=
+  dependencies:
+    resolve "^1.1.6"
 
 redent@^3.0.0:
   version "3.0.0"
@@ -9197,6 +9690,11 @@ repeat-string@^1.0.0, repeat-string@^1.6.1:
   resolved "http://npm.zhenguanyu.com/repeat-string/download/repeat-string-1.6.1.tgz"
   integrity sha1-jcrkcOHIirwtYA//Sndihtp15jc=
 
+replace-ext@^1.0.0:
+  version "1.0.1"
+  resolved "http://npm.zhenguanyu.com/replace-ext/download/replace-ext-1.0.1.tgz#2d6d996d04a15855d967443631dd5f77825b016a"
+  integrity sha1-LW2ZbQShWFXZZ0Q2Md1fd4JbAWo=
+
 require-directory@^2.1.1:
   version "2.1.1"
   resolved "http://npm.zhenguanyu.com/require-directory/download/require-directory-2.1.1.tgz"
@@ -9259,7 +9757,7 @@ resolve-url@^0.2.1:
   resolved "http://npm.zhenguanyu.com/resolve-url/download/resolve-url-0.2.1.tgz"
   integrity sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
 
-resolve@^1.10.0, resolve@^1.12.0, resolve@^1.13.1, resolve@^1.14.2, resolve@^1.20.0:
+resolve@^1.1.6, resolve@^1.10.0, resolve@^1.12.0, resolve@^1.13.1, resolve@^1.14.2, resolve@^1.20.0:
   version "1.20.0"
   resolved "http://npm.zhenguanyu.com/resolve/download/resolve-1.20.0.tgz"
   integrity sha1-YpoBP7P3B1XW8LeTXMHCxTeLGXU=
@@ -9337,7 +9835,7 @@ rimraf@^2.5.4, rimraf@^2.6.3:
   dependencies:
     glob "^7.1.3"
 
-rimraf@^3.0.2:
+rimraf@^3.0.0, rimraf@^3.0.2:
   version "3.0.2"
   resolved "http://npm.zhenguanyu.com/rimraf/download/rimraf-3.0.2.tgz"
   integrity sha1-8aVAK6YiCtUswSgrrBrjqkn9Bho=
@@ -9359,7 +9857,7 @@ rtl-css-js@^1.14.0:
   dependencies:
     "@babel/runtime" "^7.1.2"
 
-run-async@^2.4.0:
+run-async@^2.0.0, run-async@^2.4.0:
   version "2.4.1"
   resolved "http://npm.zhenguanyu.com/run-async/download/run-async-2.4.1.tgz"
   integrity sha1-hEDsz5nqPnC9QJ1JqriOEMGJpFU=
@@ -9378,7 +9876,7 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
-rxjs@^6.6.0, rxjs@^6.6.7:
+rxjs@^6.6.0, rxjs@^6.6.6, rxjs@^6.6.7:
   version "6.6.7"
   resolved "http://npm.zhenguanyu.com/rxjs/download/rxjs-6.6.7.tgz"
   integrity sha1-kKwBisq/SRv2UEQjXVhjxNq4BMk=
@@ -9466,6 +9964,11 @@ schema-utils@^3.0.0:
     ajv "^6.12.5"
     ajv-keywords "^3.5.2"
 
+scoped-regex@^1.0.0:
+  version "1.0.0"
+  resolved "http://npm.zhenguanyu.com/scoped-regex/download/scoped-regex-1.0.0.tgz#a346bb1acd4207ae70bd7c0c7ca9e566b6baddb8"
+  integrity sha1-o0a7Gs1CB65wvXwMfKnlZra63bg=
+
 screenfull@^5.1.0:
   version "5.1.0"
   resolved "http://npm.zhenguanyu.com/screenfull/download/screenfull-5.1.0.tgz"
@@ -9508,7 +10011,7 @@ semver@^6.0.0, semver@^6.1.1, semver@^6.1.2, semver@^6.3.0:
   resolved "http://npm.zhenguanyu.com/semver/download/semver-6.3.0.tgz"
   integrity sha1-7gpkyK9ejO6mdoexM3YeG+y9HT0=
 
-semver@^7.2.1, semver@^7.3.2, semver@^7.3.4, semver@^7.3.5:
+semver@^7.1.3, semver@^7.2.1, semver@^7.3.2, semver@^7.3.4, semver@^7.3.5:
   version "7.3.5"
   resolved "http://npm.zhenguanyu.com/semver/download/semver-7.3.5.tgz"
   integrity sha1-C2Ich5NI2JmOSw5L6Us/EuYBjvc=
@@ -9576,6 +10079,13 @@ set-blocking@^2.0.0:
   version "2.0.0"
   resolved "http://npm.zhenguanyu.com/set-blocking/download/set-blocking-2.0.0.tgz"
   integrity sha1-BF+XgtARrppoA93TgrJDkrPYkPc=
+
+set-getter@^0.1.0:
+  version "0.1.0"
+  resolved "http://npm.zhenguanyu.com/set-getter/download/set-getter-0.1.0.tgz#d769c182c9d5a51f409145f2fba82e5e86e80376"
+  integrity sha1-12nBgsnVpR9AkUXy+6guXoboA3Y=
+  dependencies:
+    to-object-path "^0.3.0"
 
 set-harmonic-interval@^1.0.1:
   version "1.0.1"
@@ -9656,6 +10166,15 @@ shebang-regex@^3.0.0:
   resolved "http://npm.zhenguanyu.com/shebang-regex/download/shebang-regex-3.0.0.tgz"
   integrity sha1-rhbxZE2HPsrYQ7AwexQzYtTEIXI=
 
+shelljs@^0.8.4:
+  version "0.8.4"
+  resolved "http://npm.zhenguanyu.com/shelljs/download/shelljs-0.8.4.tgz#de7684feeb767f8716b326078a8a00875890e3c2"
+  integrity sha1-3naE/ut2f4cWsyYHiooAh1iQ48I=
+  dependencies:
+    glob "^7.0.0"
+    interpret "^1.0.0"
+    rechoir "^0.6.2"
+
 side-channel@^1.0.4:
   version "1.0.4"
   resolved "http://npm.zhenguanyu.com/side-channel/download/side-channel-1.0.4.tgz"
@@ -9690,6 +10209,16 @@ sisteransi@^1.0.5:
   version "1.0.5"
   resolved "http://npm.zhenguanyu.com/sisteransi/download/sisteransi-1.0.5.tgz"
   integrity sha1-E01oEpd1ZDfMBcoBNw06elcQde0=
+
+slash@^1.0.0:
+  version "1.0.0"
+  resolved "http://npm.zhenguanyu.com/slash/download/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
+  integrity sha1-xB8vbDn8FtHNF61LXYlhFK5HDVU=
+
+slash@^2.0.0:
+  version "2.0.0"
+  resolved "http://npm.zhenguanyu.com/slash/download/slash-2.0.0.tgz#de552851a1759df3a8f206535442f5ec4ddeab44"
+  integrity sha1-3lUoUaF1nfOo8gZTVEL17E3eq0Q=
 
 slash@^3.0.0:
   version "3.0.0"
@@ -10021,6 +10550,11 @@ string-convert@^0.2.0:
   resolved "http://npm.zhenguanyu.com/string-convert/download/string-convert-0.2.1.tgz"
   integrity sha1-aYLMMEn7tM2F+LJFaLnZvznu/5c=
 
+string-template@~0.2.1:
+  version "0.2.1"
+  resolved "http://npm.zhenguanyu.com/string-template/download/string-template-0.2.1.tgz#42932e598a352d01fc22ec3367d9d84eec6c9add"
+  integrity sha1-QpMuWYo1LQH8IuwzZ9nYTuxsmt0=
+
 string-width@^2.0.0:
   version "2.1.1"
   resolved "http://npm.zhenguanyu.com/string-width/download/string-width-2.1.1.tgz"
@@ -10127,6 +10661,28 @@ strip-ansi@^6.0.0:
   integrity sha1-CxVx3XZpzNTz4G4U7x7tJiJa5TI=
   dependencies:
     ansi-regex "^5.0.0"
+
+strip-bom-buf@^1.0.0:
+  version "1.0.0"
+  resolved "http://npm.zhenguanyu.com/strip-bom-buf/download/strip-bom-buf-1.0.0.tgz#1cb45aaf57530f4caf86c7f75179d2c9a51dd572"
+  integrity sha1-HLRar1dTD0yvhsf3UXnSyaUd1XI=
+  dependencies:
+    is-utf8 "^0.2.1"
+
+strip-bom-stream@^2.0.0:
+  version "2.0.0"
+  resolved "http://npm.zhenguanyu.com/strip-bom-stream/download/strip-bom-stream-2.0.0.tgz#f87db5ef2613f6968aa545abfe1ec728b6a829ca"
+  integrity sha1-+H217yYT9paKpUWr/h7HKLaoKco=
+  dependencies:
+    first-chunk-stream "^2.0.0"
+    strip-bom "^2.0.0"
+
+strip-bom@^2.0.0:
+  version "2.0.0"
+  resolved "http://npm.zhenguanyu.com/strip-bom/download/strip-bom-2.0.0.tgz#6219a85616520491f35788bdbf1447a99c7e6b0e"
+  integrity sha1-YhmoVhZSBJHzV4i9vxRHqZx+aw4=
+  dependencies:
+    is-utf8 "^0.2.0"
 
 strip-bom@^3.0.0:
   version "3.0.0"
@@ -10355,6 +10911,18 @@ tapable@^1.0.0, tapable@^1.1.3:
   resolved "http://npm.zhenguanyu.com/tapable/download/tapable-1.1.3.tgz"
   integrity sha1-ofzMBrWNth/XpF2i2kT186Pme6I=
 
+tar@^6.1.0:
+  version "6.1.0"
+  resolved "http://npm.zhenguanyu.com/tar/download/tar-6.1.0.tgz#d1724e9bcc04b977b18d5c573b333a2207229a83"
+  integrity sha1-0XJOm8wEuXexjVxXOzM6IgcimoM=
+  dependencies:
+    chownr "^2.0.0"
+    fs-minipass "^2.0.0"
+    minipass "^3.0.0"
+    minizlib "^2.1.1"
+    mkdirp "^1.0.3"
+    yallist "^4.0.0"
+
 terser-webpack-plugin@^1.4.3:
   version "1.4.5"
   resolved "http://npm.zhenguanyu.com/terser-webpack-plugin/download/terser-webpack-plugin-1.4.5.tgz"
@@ -10384,6 +10952,11 @@ text-table@^0.2.0:
   resolved "http://npm.zhenguanyu.com/text-table/download/text-table-0.2.0.tgz"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
 
+textextensions@^2.5.0:
+  version "2.6.0"
+  resolved "http://npm.zhenguanyu.com/textextensions/download/textextensions-2.6.0.tgz#d7e4ab13fe54e32e08873be40d51b74229b00fc4"
+  integrity sha1-1+SrE/5U4y4IhzvkDVG3QimwD8Q=
+
 thenify-all@^1.0.0:
   version "1.6.0"
   resolved "http://npm.zhenguanyu.com/thenify-all/download/thenify-all-1.6.0.tgz"
@@ -10411,7 +10984,15 @@ through2@^2.0.0:
     readable-stream "~2.3.6"
     xtend "~4.0.1"
 
-through@^2.3.6, through@^2.3.8:
+through2@^3.0.0, through2@^3.0.1, through2@^3.0.2:
+  version "3.0.2"
+  resolved "http://npm.zhenguanyu.com/through2/download/through2-3.0.2.tgz#99f88931cfc761ec7678b41d5d7336b5b6a07bf4"
+  integrity sha1-mfiJMc/HYex2eLQdXXM2tbage/Q=
+  dependencies:
+    inherits "^2.0.4"
+    readable-stream "2 || 3"
+
+"through@>=2.2.7 <3", through@^2.3.6, through@^2.3.8:
   version "2.3.8"
   resolved "http://npm.zhenguanyu.com/through/download/through-2.3.8.tgz"
   integrity sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=
@@ -10420,6 +11001,11 @@ thunky@^1.0.2:
   version "1.1.0"
   resolved "http://npm.zhenguanyu.com/thunky/download/thunky-1.1.0.tgz"
   integrity sha1-Wrr3FKlAXbBQRzK7zNLO3Z75U30=
+
+timed-out@^4.0.0:
+  version "4.0.1"
+  resolved "http://npm.zhenguanyu.com/timed-out/download/timed-out-4.0.1.tgz#f32eacac5a175bea25d7fab565ab3ed8741ef56f"
+  integrity sha1-8y6srFoXW+ol1/q1Zas+2HQe9W8=
 
 timers-browserify@^2.0.4:
   version "2.0.12"
@@ -10830,6 +11416,16 @@ unset-value@^1.0.0:
     has-value "^0.3.1"
     isobject "^3.0.0"
 
+untildify@^3.0.3:
+  version "3.0.3"
+  resolved "http://npm.zhenguanyu.com/untildify/download/untildify-3.0.3.tgz#1e7b42b140bcfd922b22e70ca1265bfe3634c7c9"
+  integrity sha1-HntCsUC8/ZIrIucMoSZb/jY0x8k=
+
+unzip-response@^2.0.1:
+  version "2.0.1"
+  resolved "http://npm.zhenguanyu.com/unzip-response/download/unzip-response-2.0.1.tgz#d2f0f737d16b0615e72a6935ed04214572d56f97"
+  integrity sha1-0vD3N9FrBhXnKmk17QQhRXLVb5c=
+
 upath@^1.1.1:
   version "1.2.0"
   resolved "http://npm.zhenguanyu.com/upath/download/upath-1.2.0.tgz"
@@ -10867,6 +11463,13 @@ url-loader@^4.1.1:
     loader-utils "^2.0.0"
     mime-types "^2.1.27"
     schema-utils "^3.0.0"
+
+url-parse-lax@^1.0.0:
+  version "1.0.0"
+  resolved "http://npm.zhenguanyu.com/url-parse-lax/download/url-parse-lax-1.0.0.tgz#7af8f303645e9bd79a272e7a14ac68bc0609da73"
+  integrity sha1-evjzA2Rem9eaJy56FKxovAYJ2nM=
+  dependencies:
+    prepend-http "^1.0.1"
 
 url-parse@^1.4.3, url-parse@^1.5.1:
   version "1.5.1"
@@ -10986,6 +11589,29 @@ vfile@^4.0.0:
     is-buffer "^2.0.0"
     unist-util-stringify-position "^2.0.0"
     vfile-message "^2.0.0"
+
+vinyl-file@^3.0.0:
+  version "3.0.0"
+  resolved "http://npm.zhenguanyu.com/vinyl-file/download/vinyl-file-3.0.0.tgz#b104d9e4409ffa325faadd520642d0a3b488b365"
+  integrity sha1-sQTZ5ECf+jJfqt1SBkLQo7SIs2U=
+  dependencies:
+    graceful-fs "^4.1.2"
+    pify "^2.3.0"
+    strip-bom-buf "^1.0.0"
+    strip-bom-stream "^2.0.0"
+    vinyl "^2.0.1"
+
+vinyl@^2.0.1, vinyl@^2.2.0, vinyl@^2.2.1:
+  version "2.2.1"
+  resolved "http://npm.zhenguanyu.com/vinyl/download/vinyl-2.2.1.tgz#23cfb8bbab5ece3803aa2c0a1eb28af7cbba1974"
+  integrity sha1-I8+4u6tezjgDqiwKHrKK98u6GXQ=
+  dependencies:
+    clone "^2.1.1"
+    clone-buffer "^1.0.0"
+    clone-stats "^1.0.0"
+    cloneable-readable "^1.0.0"
+    remove-trailing-separator "^1.0.1"
+    replace-ext "^1.0.0"
 
 vm-browserify@^1.0.1:
   version "1.1.2"
@@ -11339,6 +11965,15 @@ wildcard@^2.0.0:
   resolved "http://npm.zhenguanyu.com/wildcard/download/wildcard-2.0.0.tgz"
   integrity sha1-p30g5SAMb6qsl55LOq3Hs91/j+w=
 
+with-open-file@^0.1.6:
+  version "0.1.7"
+  resolved "http://npm.zhenguanyu.com/with-open-file/download/with-open-file-0.1.7.tgz#e2de8d974e8a8ae6e58886be4fe8e7465b58a729"
+  integrity sha1-4t6Nl06KiubliIa+T+jnRltYpyk=
+  dependencies:
+    p-finally "^1.0.0"
+    p-try "^2.1.0"
+    pify "^4.0.1"
+
 word-wrap@^1.2.3, word-wrap@~1.2.3:
   version "1.2.3"
   resolved "http://npm.zhenguanyu.com/word-wrap/download/word-wrap-1.2.3.tgz"
@@ -11516,6 +12151,65 @@ yargs@^16.2.0:
     string-width "^4.2.0"
     y18n "^5.0.5"
     yargs-parser "^20.2.2"
+
+yeoman-environment@^2.8.0, yeoman-environment@^2.9.5:
+  version "2.10.3"
+  resolved "http://npm.zhenguanyu.com/yeoman-environment/download/yeoman-environment-2.10.3.tgz#9d8f42b77317414434cc0e51fb006a4bdd54688e"
+  integrity sha1-nY9Ct3MXQUQ0zA5R+wBqS91UaI4=
+  dependencies:
+    chalk "^2.4.1"
+    debug "^3.1.0"
+    diff "^3.5.0"
+    escape-string-regexp "^1.0.2"
+    execa "^4.0.0"
+    globby "^8.0.1"
+    grouped-queue "^1.1.0"
+    inquirer "^7.1.0"
+    is-scoped "^1.0.0"
+    lodash "^4.17.10"
+    log-symbols "^2.2.0"
+    mem-fs "^1.1.0"
+    mem-fs-editor "^6.0.0"
+    npm-api "^1.0.0"
+    semver "^7.1.3"
+    strip-ansi "^4.0.0"
+    text-table "^0.2.0"
+    untildify "^3.0.3"
+    yeoman-generator "^4.8.2"
+
+yeoman-generator@^4.12.0, yeoman-generator@^4.8.2:
+  version "4.13.0"
+  resolved "http://npm.zhenguanyu.com/yeoman-generator/download/yeoman-generator-4.13.0.tgz#a6caeed8491fceea1f84f53e31795f25888b4672"
+  integrity sha1-psru2EkfzuofhPU+MXlfJYiLRnI=
+  dependencies:
+    async "^2.6.2"
+    chalk "^2.4.2"
+    cli-table "^0.3.1"
+    cross-spawn "^6.0.5"
+    dargs "^6.1.0"
+    dateformat "^3.0.3"
+    debug "^4.1.1"
+    diff "^4.0.1"
+    error "^7.0.2"
+    find-up "^3.0.0"
+    github-username "^3.0.0"
+    istextorbinary "^2.5.1"
+    lodash "^4.17.11"
+    make-dir "^3.0.0"
+    mem-fs-editor "^7.0.1"
+    minimist "^1.2.5"
+    pretty-bytes "^5.2.0"
+    read-chunk "^3.2.0"
+    read-pkg-up "^5.0.0"
+    rimraf "^2.6.3"
+    run-async "^2.0.0"
+    semver "^7.2.1"
+    shelljs "^0.8.4"
+    text-table "^0.2.0"
+    through2 "^3.0.1"
+  optionalDependencies:
+    grouped-queue "^1.1.0"
+    yeoman-environment "^2.9.5"
 
 yn@3.1.1:
   version "3.1.1"
